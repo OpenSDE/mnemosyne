@@ -13,33 +13,31 @@
 # GNU General Public License can be found in the file COPYING.
 # --- T2-COPYRIGHT-NOTE-END ---
 
-if [ ! -s $cfgtmpdir/config.mnemosyne.in ]; then
-	rm -f $cfgtmpdir/{config,rules,awkgen}.mnemosyne.in
+CFGTEMP_TRG_MNEMOSYNE_TRGDIR=./target/mnemosyne2
 
-	perl ./target/mnemosyne/mnemosyne.pl "./target/mnemosyne/pkgsel" TRG_MNEMOSYNE	\
-		$cfgtmpdir/config.mnemosyne.in		\
-		$cfgtmpdir/rules.mnemosyne.in		\
-		$cfgtmpdir/awkgen.mnemosyne.in
+if [ ! -s $cfgtmpdir/mnemosyne.config.in ]; then
 
+	if ! perl $CFGTEMP_TRG_MNEMOSYNE_TRGDIR/mnemosyne.pl "$CFGTEMP_TRG_MNEMOSYNE_TRGDIR/pkgsel" TRG_MNEMOSYNE	\
+		$cfgtmpdir/mnemosyne.{config,rules,awkgen}.in; then
+		echo "mnemosyne.pl failed!"
+		rm -f $cfgtmpdir/mnemosyne.{config,rules,awkgen}.in
+	fi
 fi
 
-bool 'Copy cache files of mnemoc`s optional packages' SDECFG_TRG_MNEMOSYNE_COPYCACHE 0
-block_end
-
 block_begin 5
-	if [ -s $cfgtmpdir/config.mnemosyne.in ]; then
-		. $cfgtmpdir/rules.mnemosyne.in
-		. $cfgtmpdir/config.mnemosyne.in
+	if [ -s $cfgtmpdir/mnemosyne.config.in ]; then
+		. $cfgtmpdir/mnemosyne.rules.in
+		. $cfgtmpdir/mnemosyne.config.in
 	else
 		comment ' '
 		comment 'ERROR: plugins config was not rendered!'
 	fi
 block_end
 
-if [ -s $cfgtmpdir/awkgen.mnemosyne.in ]; then
-	. $cfgtmpdir/awkgen.mnemosyne.in DISABLE_ALL \
-		> $cfgtmpdir/pkgsel.mnemosyne.awk
-	pkgfilter awk -f $cfgtmpdir/pkgsel.mnemosyne.awk
+if [ -s $cfgtmpdir/mnemosyne.awkgen.in ]; then
+	. $cfgtmpdir/mnemosyne.awkgen.in DISABLE_ALL \
+		> $cfgtmpdir/mnemosyne.pkgsel.awk
+	pkgfilter awk -f $cfgtmpdir/mnemosyne.pkgsel.awk
 fi
 
 block_begin 7
