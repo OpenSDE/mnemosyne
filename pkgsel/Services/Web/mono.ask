@@ -1,0 +1,5 @@
+#Description: ASP.NET
+#Variable: ASPNET
+#Forced: MONO
+X mod_mono
+X mono-xsp
