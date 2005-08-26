@@ -13,25 +13,8 @@
 # GNU General Public License can be found in the file COPYING.
 # --- T2-COPYRIGHT-NOTE-END ---
 
-CFGTEMP_TRG_MNEMOSYNE_TRGDIR=./target/mnemosyne2
-
-if [ ! -s $cfgtmpdir/mnemosyne.config.in ]; then
-
-	if ! perl $CFGTEMP_TRG_MNEMOSYNE_TRGDIR/mnemosyne.pl "$CFGTEMP_TRG_MNEMOSYNE_TRGDIR/pkgsel" TRG_MNEMOSYNE	\
-		$cfgtmpdir/mnemosyne.{config,rules,awkgen}.in; then
-		echo "mnemosyne.pl failed!"
-		rm -f $cfgtmpdir/mnemosyne.{config,rules,awkgen}.in
-	fi
+if [ -s $cfgtmpdir/mnemosyne.awkgen.in ]; then
+	. $cfgtmpdir/mnemosyne.awkgen.in DISABLE_ALL \
+		> $cfgtmpdir/mnemosyne.pkgsel.awk
+	pkgfilter awk -f $cfgtmpdir/mnemosyne.pkgsel.awk
 fi
-
-block_begin 5
-	if [ -s $cfgtmpdir/mnemosyne.config.in ]; then
-		. $cfgtmpdir/mnemosyne.rules.in
-		. $cfgtmpdir/mnemosyne.config.in
-	else
-		comment ' '
-		comment 'ERROR: plugins config was not rendered!'
-	fi
-block_end
-
-block_begin 7
