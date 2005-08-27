@@ -32,7 +32,7 @@ sub scandir {
 		$relative = (m/^$::ROOT\/(.*)/i)[0];
 
 		$dirvar =  "CFGTEMP_$prefix\_$relative";
-		$dirvar =~ tr,a-z\/,A-Z_,;
+		$dirvar =~ tr,a-z\/ ,A-Z__,;
 
 		$dirname=$relative;
 		$dirname=~ s/.*\///g;
