@@ -403,16 +403,18 @@ sub render_awkgen {
 		if ($module->{kind} == CHOICE) {
 			my %options;
 
-			# the list of options and their implyed options
+			# the list of options
 			for (@{ $module->{options} }) {
 				my $option = $_;
 				my @array=("\"\$$module->{var}\" == $_->{option}");
 				$options{$_->{option}} = \@array;
-				if (exists $option->{imply}) {
-					for (@{ $option->{imply} }) {
-						push @{$options{$option->{option}}},
-							"\"\$module->{var}\" == $_";
-						}
+				}
+			# and their implyed options
+			for (@{ $module->{options} }) {
+				my $option = $_;
+				for (@{exists $option->{imply}? $option->{imply} : [] }) {
+					push @{$options{$_}},
+						"\"\$$module->{var}\" == $option->{option}";
 					}
 				}
 
