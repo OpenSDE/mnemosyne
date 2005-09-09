@@ -1,3 +1,6 @@
+#Description: Basic X.org
+#Imply: minimal
+
 X startup-notification
 X microsoft-web-core-fonts
 X xorg-cyrillic-fonts

@@ -1,3 +1,5 @@
+#Description: Minimal X.org Suppport
+
 X xorg
 X ed
 X expat
