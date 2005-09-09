@@ -14,7 +14,7 @@
 # --- T2-COPYRIGHT-NOTE-END ---
 
 if [ -s $cfgtmpdir/mnemosyne.awkgen.in ]; then
-	. $cfgtmpdir/mnemosyne.awkgen.in DISABLE_ALL \
+	. $cfgtmpdir/mnemosyne.awkgen.in \
 		> $cfgtmpdir/mnemosyne.pkgsel.awk
 	pkgfilter awk -f $cfgtmpdir/mnemosyne.pkgsel.awk
 fi

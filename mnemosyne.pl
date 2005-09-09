@@ -379,8 +379,11 @@ sub pkgsel_parse {
 	print "\techo '$address ) { $action; }'\n";
 	return 1;
 }
+
 sub render_awkgen {
 	open(my $OUTPUT,'>',$_[0]);
+	my $root="CFGTEMP_$_[1]";
+
 	select $OUTPUT;
 
 	# initially change packages $4 and $5 to be able to correctly match repo based.
@@ -389,17 +392,28 @@ sub render_awkgen {
 	print "echo '\tpkg=\$5 ;'\n";
 	print "echo '\t\$5 = \$4 \"/\" \$5 ;'\n";
 	print "echo '\t\$4 = \"placeholder\" ;'\n";
-
-	# if awkgen is sourced with DISABLE_ALL as argument
-	# we disable everything before starting
-	print "if [ \"\$1\" == DISABLE_ALL ]; then\n";
-	print "\techo '\t\$1=\"O\" ;'\n";
-	print "fi\n";
-
 	print "echo '}'\n";
 
-	for (values %::MODULE) {
-		my $module=$_;
+	render_awkgen_folder($::FOLDER{$root});
+
+	# ... restore $4 and $5, and print the resulting line
+	print "echo '\n{'\n";
+	print "echo '\t\$4=repo ;'\n";
+	print "echo '\t\$5=pkg ;'\n";
+	print "echo '\tprint ;'\n";
+	print "echo '}'\n";
+
+	select STDOUT;
+	close($OUTPUT);
+	}
+
+sub render_awkgen_folder {
+	my ($folder) = @_;
+	for (@{$folder->{children}}) {
+		if (/^CFGTEMP/) {
+			render_awkgen_folder($::FOLDER{$_});
+		} else {
+		my $module=$::MODULE{$_};
 		if ($module->{kind} == CHOICE) {
 			my %options;
 
@@ -451,16 +465,7 @@ sub render_awkgen {
 			print "fi\n";
 			}
 		}
-
-	# ... restore $4 and $5, and print the resulting line
-	print "echo '\n{'\n";
-	print "echo '\t\$4=repo ;'\n";
-	print "echo '\t\$5=pkg ;'\n";
-	print "echo '\tprint ;'\n";
-	print "echo '}'\n";
-
-	select STDOUT;
-	close($OUTPUT);
+		}
 	}
 	
 sub render_rules_module {
