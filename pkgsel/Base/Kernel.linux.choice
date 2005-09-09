@@ -1,5 +1,3 @@
 #Description: Linux Kernel (2.6)
 
-X linux26
 X linux-header
-X module-init-tools
