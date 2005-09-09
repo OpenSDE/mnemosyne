@@ -1,3 +1,6 @@
+#Description: Network Support
+#Default: 1
+
 X iproute2
 X iptables
 X net-tools
