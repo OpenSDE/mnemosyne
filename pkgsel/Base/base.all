@@ -3,8 +3,6 @@ X sysfiles
 
 X cron
 
-- sysklogd
-
 X ipsvd
 - inetd
 - xinetd
