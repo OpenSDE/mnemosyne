@@ -1,0 +1,10 @@
+#Description: GNOME Office
+#Dependencies: GNOME!='' GNOME!=none
+X abiword
+X enchard
+
+X gnumeric
+
+X mergeant
+X libgnomedb
+X libgda
