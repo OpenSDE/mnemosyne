@@ -1,2 +1,4 @@
 #Description: OpenSSH Server/Client
+#Dependencies: NETWORK
+#Default: openssh
 X openssh

@@ -1,2 +1,3 @@
 #Description: Dropbear small SSH 2 Server/Client  
+#Dependencies: NETWORK
 X dropbear
