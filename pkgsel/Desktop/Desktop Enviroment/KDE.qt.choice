@@ -1,5 +1,6 @@
 #Description: No KDE, but QT.
-#Forced: X
+#Dependencies: X!=none
+
 X lcms
 X libmng
 X qt

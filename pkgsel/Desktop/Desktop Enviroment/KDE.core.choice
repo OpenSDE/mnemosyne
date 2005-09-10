@@ -1,8 +1,6 @@
 #Description: KDE Core Packages 
-#Forced: X
-X lcms
-X libmng
-X qt
+#Dependencies: X!=none
+#Imply: qt
 X pcre
 X kdelibs
 X kdebase
