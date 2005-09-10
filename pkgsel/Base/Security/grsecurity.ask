@@ -1,2 +1,3 @@
 #Description: grsecurity support
+#Default: 1
 X grsecurity 
