@@ -1,5 +1,5 @@
 #Description: GNOME Minimal Desktop
-#Forced: X GTK
+#Dependencies: GTK
 #Imply: core
 X libidl
 X orbit2

@@ -1,5 +1,5 @@
 #Description: GNOME Basic Desktop
-#Forced: X GTK
+#Dependencies: GTK
 #Imply: minimal
 X libgnomeprint
 X libgnomeprintui
