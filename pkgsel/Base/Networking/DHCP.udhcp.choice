@@ -1,3 +1,4 @@
 #Description: DHCP Client (udhcp)
+#Dependencies: NETWORK
 #Default: udhcp
 X udhcp

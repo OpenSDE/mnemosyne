@@ -1,2 +1,3 @@
 #Description: DHCP Client (dhcpcd)
+#Dependencies: NETWORK
 X dhcpcd
