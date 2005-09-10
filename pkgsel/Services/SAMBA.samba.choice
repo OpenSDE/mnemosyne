@@ -1,4 +1,5 @@
 #Description: Basic SMB Server/Client
+#Dependencies: NETWORK
 X samba
 X popt
 X smbc

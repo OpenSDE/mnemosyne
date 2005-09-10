@@ -1,6 +1,5 @@
 #Description: Samba-LDAP SMB Server/Client
-#Dependencies: LDAP
-X samba
+#Dependencies: NETWORK LDAP
+#Imply: samba
+
 X smbldap-tools
-X popt
-X smbc

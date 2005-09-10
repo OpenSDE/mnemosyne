@@ -1,2 +1,3 @@
 #Description: No SMB Server/Client
+#Dependencies: NETWORK
 #Default: none
