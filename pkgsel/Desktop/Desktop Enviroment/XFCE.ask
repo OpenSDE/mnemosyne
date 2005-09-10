@@ -1,3 +1,5 @@
+#Dependencies: GTK
+
 X xfce4/*
 
 # needed by xfce4-print
