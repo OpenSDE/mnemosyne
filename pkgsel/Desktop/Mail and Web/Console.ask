@@ -1,5 +1,6 @@
 #Description: Console Based MUA/Browser
 #Variable: CONSOLEMUA
+#Dependencies: NETWORK
 #Forced: INTERACTIVITY
 X links
 X mutt
