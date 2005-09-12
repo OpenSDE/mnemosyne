@@ -1,4 +1,5 @@
 #Description: GNU LibC and fat friends
+#Default: glibc
 
 X glibc
 X glibc32
