@@ -3,10 +3,6 @@ X sysfiles
 
 X cron
 
-X ipsvd
-- inetd
-- xinetd
-
 X util-linux
 X findutils
 X mktemp

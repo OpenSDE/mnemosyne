@@ -1,0 +1,5 @@
+#Dependencies: NETWORK
+
+X ipsvd
+- inetd
+- xinetd
