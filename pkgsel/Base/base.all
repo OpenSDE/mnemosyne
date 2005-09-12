@@ -8,7 +8,6 @@ X ipsvd
 - xinetd
 
 X util-linux
-X coreutils
 X findutils
 X mktemp
 
