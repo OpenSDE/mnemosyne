@@ -1,6 +1,7 @@
 #Description: GNOME Office
 #Dependencies: GNOME!='' GNOME!=none GNOME!=minimal
 X abiword
+X fribidi
 X enchard
 
 X gnumeric
