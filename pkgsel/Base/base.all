@@ -1,8 +1,6 @@
 X 00-dirtree
 X sysfiles
 
-X cron
-
 X util-linux
 X findutils
 X mktemp
