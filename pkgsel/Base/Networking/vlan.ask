@@ -1,2 +1,4 @@
 #Description: VLAN 802.1Q
+#Dependencies: NETWORK
+
 X vlan
