@@ -9,6 +9,8 @@ X curl
 X libxml
 X neon
 X subversion
+X apr
+X apr-util
 
 X cvs
 X tla
@@ -17,4 +19,4 @@ X lsof
 X dump
 X cdrtools
 
-X rock-src
+X t2-src
