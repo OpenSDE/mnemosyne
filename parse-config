@@ -13,7 +13,6 @@
 # GNU General Public License can be found in the file COPYING.
 # --- T2-COPYRIGHT-NOTE-END ---
 
-target=mnemosyne2
-if [ -f $base/target/$target/pkg_conf/$pkg.conf ]; then
-	. $base/target/$target/pkg_conf/$pkg.conf
+if [ -f $base/target/$SDECFG_TRG_MNEMOSYNE/pkg_conf/$pkg.conf ]; then
+	. $base/target/$SDECFG_TRG_MNEMOSYNE/pkg_conf/$pkg.conf
 fi

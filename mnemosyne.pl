@@ -573,11 +573,12 @@ sub render_rules_nomodule {
 
 sub render_rules {
 	open(my $FILE,'>',$_[0]);
+	my $root="CFGTEMP_$_[1]";
 	select $FILE;
 
 	# clean folder enablers
 	print "#\n# folder enablers\n#\n\n";
-	for (@$::FOLDERS) { print "$_=\n"; }
+	for (@$::FOLDERS) { print "$_=\n" unless /^$root$/; }
 
 	# pkgsel list
 	for (@$::MODULES) {
