@@ -2,3 +2,5 @@
 #Forced: NETWORK VLAN
 X vserver
 X wget
+
+X unionfs
