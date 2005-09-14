@@ -1,0 +1,5 @@
+#Description: Logical Volume Manager Support (LVM2/DM)
+#Default: 1
+X device-mapper
+X lvm2
+- lvm
