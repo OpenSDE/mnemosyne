@@ -1,4 +1,5 @@
-#Description: Snort Network Intrusion Detection 
+#Description: Network Sensor 
+#Forced: NETWORK IDS
 X pcre
 X libpcap
 X snort

@@ -1,7 +1,8 @@
-#Description: Prelude-IDS support 
+#Description: IDS support 
 X libgcrypt
 X libgpg-error
 X libtasn1
 X opencdk
 X gnutls 
-X libprelude 
+X libprelude
+X prelude-lml
