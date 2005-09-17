@@ -1,4 +1,4 @@
 #Description: VLAN 802.1Q
-#Dependencies: NETWORK
+#Dependencies: NETADMIN
 
 X vlan
