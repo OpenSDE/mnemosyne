@@ -5,3 +5,7 @@
 X links
 X mutt
 X irssi
+
+# needed by irssi
+X pkgconfig
+X glib
