@@ -6,3 +6,6 @@ X opencdk
 X gnutls 
 X libprelude
 X prelude-lml
+
+# needed by prelude-lml
+X pcre
