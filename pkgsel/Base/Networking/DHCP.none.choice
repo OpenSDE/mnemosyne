@@ -1,2 +1,2 @@
 #Description: No DHCP Client
-#Dependencies: NETWORK
+#Dependencies: NETADMIN

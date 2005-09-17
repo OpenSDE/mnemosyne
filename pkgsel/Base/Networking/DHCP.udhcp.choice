@@ -1,4 +1,4 @@
 #Description: DHCP Client (udhcp)
-#Dependencies: NETWORK
+#Dependencies: NETADMIN
 #Default: udhcp
 X udhcp
