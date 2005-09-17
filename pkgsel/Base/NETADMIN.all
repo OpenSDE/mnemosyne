@@ -1,1 +1,3 @@
 #Dependencies: BOOT!=none NETWORK
+X iproute2
+X iptables
