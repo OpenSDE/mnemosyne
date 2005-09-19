@@ -1,6 +1,6 @@
 #Description: GNOME Minimal Desktop
 #Dependencies: GTK
-#Imply: core
+
 X libidl
 X orbit2
 X libbonobo

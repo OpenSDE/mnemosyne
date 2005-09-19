@@ -1,6 +1,7 @@
 #Description: GNOME Basic Desktop
 #Dependencies: GTK
 #Imply: minimal
+
 X libgnomeprint
 X libgnomeprintui
 X hicolor-icon-theme
