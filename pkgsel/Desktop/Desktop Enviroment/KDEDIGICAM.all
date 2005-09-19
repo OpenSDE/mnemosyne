@@ -1,0 +1,6 @@
+#Dependencies: KDE!='' KDE!=none DIGICAM
+X imlib2 
+X libkexif 
+X libkipi
+X digikam 
+X digikamimageplugins

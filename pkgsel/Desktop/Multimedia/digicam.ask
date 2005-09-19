@@ -1,0 +1,7 @@
+#Description: Digital Camera Support
+#Default: 0
+
+X libusb
+X libexif
+X libptp
+X libgphoto
