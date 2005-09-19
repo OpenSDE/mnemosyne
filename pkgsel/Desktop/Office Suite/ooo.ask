@@ -1,0 +1,10 @@
+#Description: OpenOffice
+#Forced: PRINTING PYTHON
+#Dependencies: X!=none
+X ooo
+X imagemagick
+X tcsh
+X perl-archive-zip
+X perl-compress-zlib
+X curl
+X neon
