@@ -1,4 +1,5 @@
 #Dependencies: GTK
+#Forced: PYTHON
 
 X xfce4/*
 
@@ -12,3 +13,6 @@ X vte
 # needed by xscreensaver
 X libglade
 X xscreensaver
+
+# needed to shutdown and reboot
+X sudo
