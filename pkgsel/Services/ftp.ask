@@ -1,3 +1,4 @@
+#Dependencies: NETWORK
 X bglibs
 X cvm
 X twoftpd
