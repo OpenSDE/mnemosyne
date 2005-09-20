@@ -1,2 +1,4 @@
-#Description: VoiceOverIP-PBX/PSTN-Gateway 
+#Description: VoIP-PBX/PSTN-Gateway 
+#Dependencies: NETWORK
+
 X asterisk
