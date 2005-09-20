@@ -1,0 +1,4 @@
+#Description: KDE Personal Informations Management Tools  
+#Dependencies: KDE!='' KDE!=none KDE!=qt 
+
+X kdepim
