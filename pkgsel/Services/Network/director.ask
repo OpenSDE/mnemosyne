@@ -1,4 +1,5 @@
 #Description: Director
+#Dependencies: NETADMIN
 X ipvsadm
 
 X keepalived
