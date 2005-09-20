@@ -206,38 +206,52 @@ sub scanmodule {
 sub process_modules { 
 	my ($READ,$WRITE,$pid);
 	my $i=0;
-	my $first;
 
 	$pid = open2($READ, $WRITE, 'tsort');
 	# prepare topographic modules map
 	for my $module (values %::MODULE) { 
 		my $related;
 
-		for (@{exists $module->{deps} ? $module->{deps} : []} ) {
-			my $dep = (m/"\$([^"]+)"/i)[0];
-			print $WRITE "$dep $module->{var}\n";
-			$related=1;
-			}
-		for (@{exists $module->{forced} ? $module->{forced} : []} ) {
-			my $forced = (m/([^"]+)=/i)[0];
-			print $WRITE "$module->{var} $forced\n";
-			$related=1;
+		if ($module->{kind} == CHOICE) {
+			for (@{ $module->{options} }) {
+				my $option = $_;
+				for (@{exists $option->{deps} ? $option->{deps} : []} ) {
+					my $dep = (m/"\$([^"]+)"/i)[0];
+					print $WRITE "$dep $module->{var}\n";
+					$related=1;
+				}
+				for (@{exists $option->{forced} ? $option->{forced} : []} ) {
+					my $forced = (m/([^"]+)=/i)[0];
+					print $WRITE "$module->{var} $forced\n";
+					$related=1;
+					}
+				}
+		} else {
+			for (@{exists $module->{deps} ? $module->{deps} : []} ) {
+				my $dep = (m/"\$([^"]+)"/i)[0];
+				print $WRITE "$dep $module->{var}\n";
+				$related=1;
+				}
+			for (@{exists $module->{forced} ? $module->{forced} : []} ) {
+				my $forced = (m/([^"]+)=/i)[0];
+				print $WRITE "$module->{var} $forced\n";
+				$related=1;
+				}
 			}
 
 		if (! $related) {
-			$first=$module->{var} unless $first;
 			print $WRITE "$module->{var}\n";
 			$i++;
 			}
 		}
 
-	print $WRITE "$first\n" unless ( $i % 2 == 0);
+	print $WRITE "IGNORE_TOKEN\n" unless ( $i % 2 == 0);
 	close($WRITE);
 
 	# and populate the sorted list
 	my @sorted;
 	while(<$READ>) {
-		if (/(.*)\n/) { push @sorted, $1; }
+		if (! /^IGNORE_TOKEN/ && /(.*)\n/) { push @sorted, $1; }
 		}
 
 	waitpid $pid,0;
