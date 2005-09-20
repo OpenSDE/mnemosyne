@@ -1,5 +1,6 @@
 #Description: Network Sensor 
-#Forced: NETWORK IDS
+#Dependencies: NETWORK
+#Forced: IDS
 X pcre
 X libpcap
 X snort

@@ -1,5 +1,6 @@
 #Description: Central Manager
-#Forced: NETWORK IDS 
+#Dependencies: NETWORK
+#Forced: IDS 
 X libxml
 X libpreludedb
 X prelude-manager
