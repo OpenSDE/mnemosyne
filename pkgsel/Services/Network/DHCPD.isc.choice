@@ -1,2 +1,3 @@
 #Description: ISC´s DHCP Server
+#Dependencies: NETWORK
 X dhcp

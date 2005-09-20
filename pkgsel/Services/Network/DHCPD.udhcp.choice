@@ -1,2 +1,3 @@
 #Description: uDHCP Server
+#Dependencies: NETWORK
 X udhcp
