@@ -1,4 +1,5 @@
 #Description: qmail + vmailmgr
+#Dependencies: NETWORK
 X qmail
 X ezmlm
 X bglibs

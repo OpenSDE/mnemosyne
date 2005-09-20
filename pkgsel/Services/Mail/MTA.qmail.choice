@@ -1,3 +1,4 @@
+#Dependencies: NETWORK
 X qmail
 X checkpassword
 X bglibs
