@@ -240,12 +240,10 @@ sub process_modules {
 			}
 
 		if (! $related) {
-			print $WRITE "$module->{var}\n";
-			$i++;
+			print $WRITE "$module->{var} IGNORE_TOKEN\n";
 			}
 		}
 
-	print $WRITE "IGNORE_TOKEN\n" unless ( $i % 2 == 0);
 	close($WRITE);
 
 	# and populate the sorted list
