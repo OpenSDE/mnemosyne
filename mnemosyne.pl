@@ -240,7 +240,7 @@ sub process_modules {
 			}
 
 		if (! $related) {
-			print $WRITE "$module->{var} IGNORE_TOKEN\n";
+			print $WRITE "$module->{var} $module->{var}\n";
 			}
 		}
 
@@ -249,7 +249,7 @@ sub process_modules {
 	# and populate the sorted list
 	my @sorted;
 	while(<$READ>) {
-		if (! /^IGNORE_TOKEN/ && /(.*)\n/) { push @sorted, $1; }
+		if (/(.*)\n/) { push @sorted, $1; }
 		}
 
 	waitpid $pid,0;
