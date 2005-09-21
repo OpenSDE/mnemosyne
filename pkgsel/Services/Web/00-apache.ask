@@ -1,4 +1,6 @@
 #Description: Web Server
+#Dependencies: NETWORK
+
 X apr
 X apr-util
 X apache

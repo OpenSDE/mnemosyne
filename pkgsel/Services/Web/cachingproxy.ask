@@ -1,3 +1,5 @@
 #Description: Caching Proxy 
+#Dependencies: NETWORK
+
 X squid
 X dansguardian 
