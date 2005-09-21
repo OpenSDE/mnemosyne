@@ -1,5 +1,4 @@
 #Description: Zope Application Server
-#Forced: PYTHON 
-#Dependencies: NETWORK
+#Forced: PYTHON NETWORK
 
 X zope
