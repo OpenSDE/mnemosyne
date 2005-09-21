@@ -1,5 +1,7 @@
 #Description: ASP.NET
 #Variable: ASPNET
+#Dependencies: APACHE
 #Forced: MONO
+
 X mod_mono
 X mono-xsp
