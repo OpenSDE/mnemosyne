@@ -1,6 +1,5 @@
 #Description: Bridging Firewall
-##Dependencies: NETADMIN
-#Dependencies: NETWORK
+#Dependencies: NETADMIN
 
 X bridge-utils
 X ebtables

@@ -1,4 +1,3 @@
 #Description: ISCs DHCP Client (dhclient)
-##Dependencies: NETADMIN
-#Dependencies: NETWORK
+#Dependencies: NETADMIN
 X dhcp
