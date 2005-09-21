@@ -1,3 +1,4 @@
 #Description: DHCP Client (dhcpcd)
-#Dependencies: NETADMIN
+##Dependencies: NETADMIN
+#Dependencies: NETWORK
 X dhcpcd
