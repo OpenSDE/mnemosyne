@@ -1,4 +1,4 @@
-#Dependencies: BOOT!=none KERNEL==linux
+#Dependencies: BOOT!=vserver KERNEL==linux
 
 X linux26
 X module-init-tools

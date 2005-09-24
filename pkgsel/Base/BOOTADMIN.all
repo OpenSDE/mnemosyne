@@ -1,4 +1,4 @@
-#Dependencies: BOOT!=none
+#Dependencies: BOOT!=vserver
 X hdparm
 
 X reiserfsprogs
