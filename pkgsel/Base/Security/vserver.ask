@@ -1,5 +1,6 @@
 #Description: Kernel Contexts support
 #Forced: NETWORK VLAN
+#Dependencies: BOOT!=vserver
 X vserver
 X wget
 

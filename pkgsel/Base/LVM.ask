@@ -1,4 +1,5 @@
 #Description: Logical Volume Manager Support (LVM2/DM)
+#Dependencies: BOOT!=vserver
 #Default: 1
 X device-mapper
 X lvm2

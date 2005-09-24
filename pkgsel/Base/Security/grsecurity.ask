@@ -1,3 +1,4 @@
 #Description: grsecurity support
 #Default: 1
+#Dependencies: BOOT!=vserver
 X grsecurity 
