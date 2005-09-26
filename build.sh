@@ -16,9 +16,9 @@ pkgloop_action() {
 	local rc=
         $cmd_buildpkg ; rc=$?
 
-	if [ -f ./.pause ]; then
+	if [ -f config/$config/.pause ]; then
 		echo_status "mnemosyne: pausing building..."
-		rm -f ./.pause
+		rm -f config/$config/.pause
 		exit 0
 	fi
 	return $rc
