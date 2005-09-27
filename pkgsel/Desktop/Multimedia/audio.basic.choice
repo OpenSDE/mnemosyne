@@ -1,0 +1,4 @@
+#Description: Basic Audio and Media Support
+#Imply: minimal
+X mplayer
+X bc
