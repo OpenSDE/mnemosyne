@@ -1,3 +1,7 @@
 X cups
 X ghostscript
 X ghostscript-fonts
+
+# needed by ghostscript
+X libpng
+X libjpeg
