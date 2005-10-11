@@ -1,4 +1,4 @@
-#Dependencies: APACHE
+#Dependencies: WEB!='' WEB!=none
 
 X php
 X libmcrypt

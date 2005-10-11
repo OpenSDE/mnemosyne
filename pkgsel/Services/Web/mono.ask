@@ -1,6 +1,6 @@
 #Description: ASP.NET
 #Variable: ASPNET
-#Dependencies: APACHE
+#Dependencies: WEB='apache'
 #Forced: MONO
 
 X mod_mono

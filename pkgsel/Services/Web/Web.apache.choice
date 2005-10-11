@@ -1,4 +1,4 @@
-#Description: Web Server
+#Description: Apache full-featured Web Server
 #Dependencies: NETWORK
 
 X apr
