@@ -1,9 +1,7 @@
-X ncurses
 X readline
 X dialog
 
 X shadow
 X cracklib
-X gettext
 
 X openssl
