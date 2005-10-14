@@ -1,2 +1,4 @@
 X runit
+X runit-shutdown
+X runit-logacct
 - sysvinit
