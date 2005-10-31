@@ -1,4 +1,4 @@
-#Dependencies: WEB!='' WEB!=none
+#Dependencies: WEB!='' WEB!=none WEB!=pound
 
 X php
 X libmcrypt

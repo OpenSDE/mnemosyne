@@ -1,0 +1,6 @@
+#Description: Pound, Reverse-proxy and load-balancer
+#Dependencies: NETWORK
+
+X pound
+- lighttpd
+- apache

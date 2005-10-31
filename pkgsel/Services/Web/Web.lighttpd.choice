@@ -2,3 +2,5 @@
 #Dependencies: NETWORK
 
 X lighttpd
+- apache
+- pound
