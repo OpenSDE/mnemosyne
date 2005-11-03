@@ -17,5 +17,6 @@ X tla
 
 X lsof
 X cdrtools
+X rsync
 
 X t2-src
