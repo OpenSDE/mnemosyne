@@ -1,0 +1,6 @@
+#Description: Regular weight System
+#Default: regular
+
+X coreutils
+X ncurses
+X gettext

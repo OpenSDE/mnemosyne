@@ -1,4 +1,4 @@
 #Description: diet libC (less is more) 
+#Dependencies: FOOTPRINT!=regular
 
 X dietlibc 
-X embutils
