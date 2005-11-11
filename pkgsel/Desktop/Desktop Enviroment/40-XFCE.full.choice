@@ -1,18 +1,6 @@
+#Description: Full Xfce Desktop
 #Dependencies: GTK
-#Forced: PYTHON
+#Forced: PYTHON PRINTING
+#Imply: minimal basic good
 
 X xfce4/*
-
-# needed by xfce4-print
-X a2ps
-
-# needed by xfce4-terminal
-X dbus
-X vte
-
-# needed by xscreensaver
-X libglade
-X xscreensaver
-
-# needed to shutdown and reboot
-X sudo
