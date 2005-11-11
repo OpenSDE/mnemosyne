@@ -1,2 +1,3 @@
 X socklog
 - sysklogd
+- syslog-ng
