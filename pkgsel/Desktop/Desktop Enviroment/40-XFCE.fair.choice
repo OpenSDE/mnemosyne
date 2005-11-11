@@ -13,9 +13,9 @@ X xfce4-panelmenu
 O xfce4-iconbox
 X xfce4-taskbar-plugin
 
-# xffm sucks
-O xffm
-X thunar
+## xffm sucks
+#O xffm
+#X thunar
 
 X xfce4-terminal
 # needed by xfce4-terminal
