@@ -17,7 +17,7 @@ X xfce4-taskbar-plugin
 O xffm
 X thunar
 
-X xfce-terminal
+X xfce4-terminal
 # needed by xfce4-terminal
 # X python
 X dbus
