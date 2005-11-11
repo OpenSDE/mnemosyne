@@ -12,6 +12,9 @@ X xfce4-appfinder
 X xfce4-iconbox
 X xfce-mcs-manager
 
+# needed by xfce4-panel
+X libxml
+
 X xfce-utils
 
 X xfce4-trigger-launcher
