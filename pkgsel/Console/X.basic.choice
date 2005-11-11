@@ -1,12 +1,22 @@
 #Description: Basic X.org
 #Imply: minimal
 
+# nice features
 X startup-notification
-X microsoft-web-core-fonts
-X xorg-cyrillic-fonts
-X freefonts
-X cabextract
-X bitstream-vera-fonts
+
+# why bc?
 X bc
 
+# fonts
+X xorg-cyrillic-fonts
+X cabextract
+X freefonts
+X microsoft-web-core-fonts
+X bitstream-vera-fonts
+
+# detect video settings
 X ddcxinfo
+
+# xscreensaver
+X xscreensaver
+X libglade
