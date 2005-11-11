@@ -1,4 +1,4 @@
-#Dependencies: XFCE!='' XFCE!=none PRINTING
+#Dependencies: XFCE!='' XFCE!=none XFCE!=minimal PRINTING
 
 X xfprint
 X a2ps
