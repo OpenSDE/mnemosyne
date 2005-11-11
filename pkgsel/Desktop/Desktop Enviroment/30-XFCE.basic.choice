@@ -1,18 +1,25 @@
+#Description: Basic Xfce Desktop
 #Dependencies: GTK
-#Forced: PYTHON
+#Imply: minimal
 
-X xfce4/*
+X xfdesktop
+X xffm
+X xfwm4
 
-# needed by xfce4-print
-X a2ps
+X xfce4-session
+X xfce4-panel
+X xfce4-appfinder
+X xfce4-iconbox
+X xfce-mcs-manager
 
-# needed by xfce4-terminal
-X dbus
-X vte
+X xfce-utils
 
-# needed by xscreensaver
-X libglade
-X xscreensaver
+X xfce4-trigger-launcher
+X xfce4-icon-theme
+X xfwm4-themes
+X xfce-mcs-plugins
+
+X xfce4-systray
 
 # needed to shutdown and reboot
 X sudo

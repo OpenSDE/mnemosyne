@@ -1,0 +1,26 @@
+#Description: Quite Complete Xfce Desktop
+#Dependencies: GTK
+#Imply: minimal basic
+#Forced: PYTHON
+
+X xfcalendar
+
+X xfce4-battery-plugin
+X xfce4-systemload-plugin
+X xfce4-panelmenu
+
+# lil' star is nice, but we prefer taskbar plugin
+O xfce4-iconbox
+X xfce4-taskbar-plugin
+
+# xffm sucks
+O xffm
+X thunar
+
+X xfce-terminal
+# needed by xfce4-terminal
+# X python
+X dbus
+X vte
+# needed by xfce4-terminal and thunar
+X libexo
