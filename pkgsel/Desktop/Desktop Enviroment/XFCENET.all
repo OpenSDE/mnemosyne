@@ -1,0 +1,4 @@
+#Dependencies: XFCE!='' XFCE!=none XFCE!=minimal XFCE!=basic NETWORK
+
+X xfce4-netload-plugin
+X xfce4-wavelan-plugin

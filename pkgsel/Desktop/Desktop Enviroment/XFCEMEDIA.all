@@ -1,0 +1,4 @@
+#Dependencies: XFCE!='' XFCE!=none XFCE!=minimal AUDIO=basic
+
+X xfmedia
+X xfce4-mixer
