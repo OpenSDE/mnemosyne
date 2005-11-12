@@ -2,3 +2,6 @@
 
 X xfmedia
 X xfce4-mixer
+
+# needed by xfmedia
+X xine-lib
