@@ -1,4 +1,4 @@
-#Dependencies: GNOME!='' GNOME!=none PRINTING
+#Dependencies: GNOME!='' GNOME!=none GNOME!=minimal PRINTING
 
 X libgnomeprint
 X libgnomeprintui
