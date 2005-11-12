@@ -7,6 +7,7 @@ X gnome-vfs
 X gnome-mime-data
 X libbonobo
 X orbit2
+X popt
 
 X libgnomeui
 X libgnomecanvas
