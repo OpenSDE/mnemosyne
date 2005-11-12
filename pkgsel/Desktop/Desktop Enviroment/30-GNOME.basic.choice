@@ -1,5 +1,6 @@
-#Description: Minimal GNOME Libraries
+#Description: Basic GNOME Desktop
 #Dependencies: GTK
+#Imply: minimal
 
 X libidl
 X orbit2
