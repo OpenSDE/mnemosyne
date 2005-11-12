@@ -1,3 +1,6 @@
 #Dependencies: GNOME!='' GNOME!=none PRINTING
+
+X libgnomeprint
+X libgnomeprintui
 X libgnomecups
 X gnome-cups-manager
