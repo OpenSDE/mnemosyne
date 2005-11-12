@@ -26,3 +26,5 @@ X vte
 X perl-xml-parser
 # needed by xfce4-terminal and thunar
 X libexo
+
+X gqview
