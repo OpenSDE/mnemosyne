@@ -2,4 +2,5 @@
 #Dependencies: GNOME!=none GNOME!=''
 
 X gdm
+X librsvg
 
