@@ -1,7 +1,7 @@
 #Description: Quite Complete Xfce Desktop
 #Dependencies: GTK
 #Imply: minimal basic
-#Forced: PYTHON
+#Forced: PYTHON PERL
 
 X xfcalendar
 
@@ -22,5 +22,7 @@ X xfce4-terminal
 # X python
 X dbus
 X vte
+# X perl
+X perl-xml-parser
 # needed by xfce4-terminal and thunar
 X libexo
