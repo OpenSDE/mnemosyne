@@ -1,0 +1,6 @@
+#Dependencies: CONSOLEMUA IM
+X irssi
+# needed by irssi
+X pkgconfig
+X glib
+
