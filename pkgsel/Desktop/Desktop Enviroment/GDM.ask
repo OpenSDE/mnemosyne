@@ -1,0 +1,5 @@
+#Description: GNOME Desktop Manager
+#Dependencies: GNOME!=none GNOME!=''
+
+X gdm
+
