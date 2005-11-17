@@ -1,7 +1,13 @@
 #Description: GTK+
 #Dependencies: X!=none
+
 X gtk+
 X pango
 X glib
 X pkgconfig
 X atk
+
+# and C++ bindings
+X libsigc++
+X glibmm
+X gtkmm
