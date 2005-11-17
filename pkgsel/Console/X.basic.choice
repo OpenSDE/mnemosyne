@@ -14,9 +14,9 @@ X freefonts
 X microsoft-web-core-fonts
 X bitstream-vera-fonts
 
+# icons
+X hicolor-icon-theme
+
 # detect video settings
 X ddcxinfo
 
-# xscreensaver
-X xscreensaver
-X libglade
