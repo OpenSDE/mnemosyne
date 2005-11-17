@@ -23,3 +23,6 @@ X libglade
 
 # and C++ bindings
 X libglademm
+
+# minimal icons
+X gnome-icon-theme
