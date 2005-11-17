@@ -14,6 +14,9 @@ X freefonts
 X microsoft-web-core-fonts
 X bitstream-vera-fonts
 
+# mime and XDG
+X shared-mime-info
+
 # icons
 X hicolor-icon-theme
 
