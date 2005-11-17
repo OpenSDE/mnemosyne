@@ -18,3 +18,8 @@ X gnome-keyring
 X scrollkeeper
 X libxslt
 X docbookx
+
+X libglade
+
+# and C++ bindings
+X libglademm
