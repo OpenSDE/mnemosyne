@@ -13,6 +13,29 @@
 # GNU General Public License can be found in the file COPYING.
 # --- T2-COPYRIGHT-NOTE-END ---
 
-if [ -f $base/target/$SDECFG_TRG_MNEMOSYNE/pkg_conf/$pkg.conf ]; then
-	. $base/target/$SDECFG_TRG_MNEMOSYNE/pkg_conf/$pkg.conf
-fi
+mnemosynedir=$base/target/$SDECFG_TRG_MNEMOSYNE
+# tweak config
+[ ! -f $mnemosynedir/pkg_conf/$pkg.conf ] || . $mnemosynedir/pkg_conf/$pkg.conf
+# append patches
+[ ! -f $mnemosynedir/pkg_patch/$pkg.patch ] || var_append patchfiles ' ' $mnemosynedir/pkg_patch/$pkg.patch
+unset mnemosynedir
+
+# postinstall extra hackery
+hook_add postinstall 5 'mnemosyne_postinstall'
+mnemosyne_postinstall() {
+	local x=
+	case "$pkg" in
+		socklog)	
+			# socklog services active by default
+			for x in klog syslog; do		
+				ln -svnf $sysconfdir/$x $root/service/$x
+			done
+			;;
+		bcron)
+			# bcron services active by default
+			for x in bcron-scheduler bcron-spooler bcron-updater; do
+				ln -svnf $sysconfdir/$x $root/service/$x
+			done
+	esac
+}
+
