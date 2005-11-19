@@ -1,0 +1,3 @@
+#Dependencies: PYGTK GNOME!='none'
+
+X gnome-python
