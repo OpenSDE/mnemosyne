@@ -3,5 +3,8 @@ X mine
 X time
 X kbd
 
-X mailx
+# command line MUA, to mail cron tasks etc.
+X nail
+- mailx
+
 X liblockfile
