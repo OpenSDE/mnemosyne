@@ -3,7 +3,6 @@
 #Imply: minimal
 
 X libidl
-X libglade
 X libxml
 X perl-xml-parser
 X nautilus
