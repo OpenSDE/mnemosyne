@@ -36,6 +36,12 @@ mnemosyne_postinstall() {
 			for x in bcron-scheduler bcron-spooler bcron-updater; do
 				ln -svnf $sysconfdir/$x $root/service/$x
 			done
+			;;
+		alsa-utils)
+			# alsa configuration save/restore
+			ln -svnf /sbin/init.d/alsa "$root/etc/runit/1.d/20alsa"
+			ln -svnf /sbin/init.d/alsa "$root/etc/runit/2.d/80alsa"
+			;;
 	esac
 }
 
