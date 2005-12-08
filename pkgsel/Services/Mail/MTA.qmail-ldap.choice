@@ -1,4 +1,4 @@
 #Dependencies: LDAP NETWORK
+
 X qmail
-X bglibs
-X qmail-autoresponder
+X qmqtool

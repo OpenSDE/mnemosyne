@@ -1,8 +1,12 @@
 #Description: qmail + vmailmgr
 #Dependencies: NETWORK
+
 X qmail
-X ezmlm
-X bglibs
-X qmail-autoresponder
+X qmqtool
+
 X ucspi-unix
 X vmailmgr
+X ezmlm
+
+X bglibs
+X qmail-autoresponder

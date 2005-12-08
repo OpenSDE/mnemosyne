@@ -1,6 +1,10 @@
 #Dependencies: NETWORK
+
 X qmail
+X qmqtool
+
 X checkpassword
-X bglibs
 X ezmlm
+
+X bglibs
 X qmail-autoresponder

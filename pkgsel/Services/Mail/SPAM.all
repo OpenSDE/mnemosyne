@@ -1,0 +1,18 @@
+#Dependencies: MTA!=nullmailer
+
+X qmail-scanner
+X clamav
+X spamassassin
+X razor
+
+# needed by spamassassin
+X perl-io-zlib
+X perl-archive-tar
+X perl-libwww
+X perl-digest-sha1
+X perl-html-parser
+
+# needed by qmail-scanner
+X unzip
+X tnef
+X maildrop
