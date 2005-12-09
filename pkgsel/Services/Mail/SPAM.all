@@ -10,6 +10,7 @@ X perl-archive-tar
 X perl-libwww
 X perl-digest-sha1
 X perl-html-parser
+X perl-net-dns
 
 # needed by qmail-scanner
 X unzip
