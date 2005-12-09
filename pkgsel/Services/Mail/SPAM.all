@@ -3,7 +3,6 @@
 X qmail-scanner
 X clamav
 X spamassassin
-X razor
 
 # needed by spamassassin
 X perl-io-zlib
