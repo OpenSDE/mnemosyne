@@ -17,6 +17,9 @@ X bitstream-vera-fonts
 # mime and XDG
 X shared-mime-info
 
+# needed by shared-mime-info
+X perl-xml-parser
+
 # icons
 X hicolor-icon-theme
 
