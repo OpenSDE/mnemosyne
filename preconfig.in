@@ -12,4 +12,5 @@
 # GNU General Public License can be found in the file COPYING.
 # --- T2-COPYRIGHT-NOTE-END ---
 
+[ "$CFGTEMP_TARGET_AUTOREG" == 1 ] ||
 var_append CFGTEMP_TARGETLIST ' ' "mnemosyne Mnemosyne_Linux_(TRUNK)"
