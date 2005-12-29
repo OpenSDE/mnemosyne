@@ -1,6 +1,11 @@
 X 00-dirtree
 X sysfiles
 
+# sysfiles split on 2.2
+X stone
+X rocknet
+X mkinitrd
+
 X util-linux
 X findutils
 X mktemp
