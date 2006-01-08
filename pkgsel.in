@@ -17,4 +17,7 @@ if [ -s $cfgtmpdir/mnemosyne.awkgen.in ]; then
 	. $cfgtmpdir/mnemosyne.awkgen.in \
 		> $cfgtmpdir/mnemosyne.pkgsel.awk
 	pkgfilter awk -f $cfgtmpdir/mnemosyne.pkgsel.awk
+
+	[ -s $cfgtmpdir/mnemosyne.postpkgfilter.in ] &&
+		. $cfgtmpdir/mnemosyne.postpkgfilter.in
 fi
