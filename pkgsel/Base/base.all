@@ -1,10 +1,9 @@
 X 00-dirtree
-X sysfiles
 
-# sysfiles split on 2.2
+X sysfiles
+# sysfiles split on 2.2 - except mkpkg and mkinitrd
 X stone
 X rocknet
-X mkinitrd
 
 X util-linux
 X findutils
