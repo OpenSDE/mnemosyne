@@ -40,7 +40,7 @@ mnemosyne_postinstall() {
 		alsa-utils)
 			# alsa configuration save/restore
 			ln -svnf /sbin/init.d/alsa "$root/etc/runit/1.d/20alsa"
-			ln -svnf /sbin/init.d/alsa "$root/etc/runit/2.d/80alsa"
+			ln -svnf /sbin/init.d/alsa "$root/etc/runit/3.d/80alsa"
 			;;
 	esac
 }
