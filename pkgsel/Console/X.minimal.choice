@@ -278,3 +278,6 @@ X xvinfo
 X xwd
 X xwininfo
 X xwud
+
+# needed by xorg-server
+X mesa
