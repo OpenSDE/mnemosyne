@@ -1,0 +1,4 @@
+#Description: uclibc
+#Dependencies: FOOTPRINT!=regular
+
+X uclibc 
