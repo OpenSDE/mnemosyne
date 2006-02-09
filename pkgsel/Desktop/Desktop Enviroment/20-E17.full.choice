@@ -1,0 +1,8 @@
+#Description: Full Enlightenment DR17 Desktop
+#Dependencies: GTK X!=none
+
+X xine-lib
+X taglib
+X sqlite
+
+X e17/*
