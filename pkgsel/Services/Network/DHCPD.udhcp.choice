@@ -1,3 +1,4 @@
 #Description: uDHCP Server
 #Dependencies: NETWORK
 X udhcp
+X tftp-hpa
