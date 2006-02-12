@@ -21,8 +21,14 @@ X docbookx
 
 X libglade
 
+X gtkhtml
+
 # and C++ bindings
 X libglademm
 
 # minimal icons
 X gnome-icon-theme
+
+# needed by gtkhtml
+X gail
+
