@@ -1,0 +1,7 @@
+#Description: HAL and D-BUS support
+
+# stuff needed by HAL
+X libusb
+
+X hal
+X dbus
