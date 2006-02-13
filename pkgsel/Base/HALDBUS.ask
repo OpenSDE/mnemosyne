@@ -2,6 +2,8 @@
 
 # stuff needed by HAL
 X libusb
+X popt
+X perl-xml-parser
 
 X hal
 X dbus
