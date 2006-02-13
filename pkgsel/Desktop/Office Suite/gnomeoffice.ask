@@ -1,5 +1,6 @@
 #Description: GNOME Office
-#Dependencies: GNOME!='' GNOME!=none GNOME!=minimal
+#Dependencies: GNOME!='' GNOME!=none
+
 X abiword
 X fribidi
 X enchard
@@ -10,3 +11,9 @@ X gnumeric
 X mergeant
 X libgnomedb
 X libgda
+
+# needed by gnumeric
+X gal
+
+# needed by goffice
+X libgsf
