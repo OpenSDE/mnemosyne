@@ -44,14 +44,14 @@ mnemosyne_postinstall() {
 			;;
 	esac
 
-        # tweaks that we need on 2.2
-        if [ "$sdever" != "2.1*" ] ; then
-                case "$pkg" in
-                        kbd)
-                                # keyboard mappings
-                                ln -svnf /sbin/init.d/kbd "$root/etc/runit/1.d/01kbd"
-                        ;;
+	# tweaks that we need on 2.2
+	if [[ "$sdever" != "2.1*" ]] ; then
+		case "$pkg" in
+			kbd)
+				# keyboard mappings
+				ln -svnf /sbin/init.d/kbd "$root/etc/runit/1.d/01kbd"
+				;;
 		esac
-        fi
+	fi
 }
 
