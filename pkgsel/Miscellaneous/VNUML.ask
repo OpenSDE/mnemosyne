@@ -1,0 +1,24 @@
+#Description: Virtual Network Simulation
+
+X vnuml
+
+# Dependencies for vnuml
+X bridge-utils
+X vlan
+X uml_utilities
+X perl-error
+X perl-class-data-inheritable
+X perl-devel-stacktrace
+X perl-exception-class
+
+X perl-xml-regexp
+X perl-xml-parser
+X perl-xml-dom
+X perl-xml-checker
+X perl-libwww
+X perl-uri
+X perl-netaddr-ip
+X perl-term-readkey
+X perl-net-ipv4addr
+X perl-net-ipv6addr
+
