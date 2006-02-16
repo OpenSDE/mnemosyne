@@ -1,0 +1,8 @@
+#Description: Project Tracking and Development Environment
+#Forced: PYTHON
+
+X setuptools
+X docutils
+X silvercity
+X trac
+
