@@ -6,6 +6,7 @@ X gnutls
 
 # needed by gnutls
 X libgcrypt
+X libtasn1
 
 # needed by libgcrypt
 X libgpg-error
