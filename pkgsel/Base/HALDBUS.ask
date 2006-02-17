@@ -1,4 +1,5 @@
 #Description: HAL and D-BUS support
+#Forced: PYTHON 
 
 # stuff needed by HAL
 X libusb
