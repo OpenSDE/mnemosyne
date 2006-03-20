@@ -1,6 +1,6 @@
 #Description: GNU LibC and fat friends
 #Default: glibc
-#Dependencies: FOOTPRINT==regular
+#Dependencies: FOOTPRINT!=embedded
 
 X glibc
 X glibc32
