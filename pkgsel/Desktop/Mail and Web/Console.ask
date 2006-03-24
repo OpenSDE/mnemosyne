@@ -1,8 +1,7 @@
-#Description: Console Based MUA/Browser
-#Variable: CONSOLEMUA
+#Description: Console Based Browser
+#Variable: CONSOLEWEB
 #Dependencies: NETWORK
 #Forced: INTERACTIVITY
 X links
-X mutt
 # needed by links
 X libtiff
