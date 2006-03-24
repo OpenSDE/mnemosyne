@@ -1,6 +1,7 @@
 #Description: KDE Core Packages 
 #Dependencies: X!=none
 #Imply: qt
+X fam
 X pcre
 X kdelibs
 X kdebase
