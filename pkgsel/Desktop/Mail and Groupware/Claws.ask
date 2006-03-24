@@ -1,0 +1,6 @@
+#Description: Sylpheed Claws
+#Dependencies: NETWORK GTK
+
+X libetpan
+
+X sylpheed-claws

@@ -1,3 +1,5 @@
+#Description: Ximian Evolution Workgroup and Personal Information Management
+#Dependencies: GNOME!=none GNOME!=''
 X evolution
 - thunderbird
 

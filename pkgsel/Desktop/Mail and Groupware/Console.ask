@@ -1,0 +1,5 @@
+#Description: Console Based MUA
+#Variable: CONSOLEMUA
+#Dependencies: NETWORK
+#Forced: INTERACTIVITY
+X mutt
