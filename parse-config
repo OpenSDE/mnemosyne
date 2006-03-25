@@ -49,7 +49,7 @@ mnemosyne_postinstall() {
 		case "$pkg" in
 			kbd)
 				# keyboard mappings
-				ln -svnf /sbin/init.d/kbd "$root/etc/runit/1.d/01kbd"
+				ln -svnf /sbin/init.d/kbd "$root/etc/runit/1.d/05kbd"
 				;;
 		esac
 	fi
