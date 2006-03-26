@@ -1,0 +1,8 @@
+#Description: Mozilla Thunderbird
+#Dependencies: NETWORK GTK
+
+X libidl
+X unzip
+X zip
+
+X thunderbird
