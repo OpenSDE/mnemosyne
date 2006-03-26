@@ -1,0 +1,8 @@
+#Description: Basic Enlightenment DR17 Desktop
+#Dependencies: X!=none
+#Imply: minimal
+
+X imlib2
+X imlib2_loaders
+
+X entrance
