@@ -1,4 +1,4 @@
-#Description: Mozilla Firefox/Thunderbird
+#Description: Mozilla Firefox
 #Dependencies: NETWORK GTK
 
 X libidl
@@ -6,7 +6,6 @@ X unzip
 X zip
 
 X firefox
-X thunderbird
 
 X mozplugger
 X mplayerplug-in
