@@ -1,0 +1,15 @@
+X ekiga
+X gnome-doc-utils
+X esound
+X evolution-data-server
+
+# please enable openldap
+X pwlib
+X opal
+
+# needed by esound
+X audiofile
+
+# needed by evolution-data-server
+X libsoup
+
