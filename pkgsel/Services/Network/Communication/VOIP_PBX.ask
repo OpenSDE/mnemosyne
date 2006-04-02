@@ -2,3 +2,10 @@
 #Dependencies: NETWORK
 
 X asterisk
+
+X libpri
+X zaptel
+
+# zaptel dependencies
+X slang
+X newt
