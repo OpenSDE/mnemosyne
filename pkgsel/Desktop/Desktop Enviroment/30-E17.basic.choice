@@ -2,8 +2,12 @@
 #Dependencies: X!=none
 #Imply: minimal
 
+# libraries
+X etk
+
 X entrance
 X e-utils
 X e-modules
 X engage
 X entice
+X exhibit
