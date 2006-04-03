@@ -1,5 +1,6 @@
 #Description: Basic Enlightenment DR17 Desktop
 #Dependencies: X!=none
+#Forced: EFL=extra
 #Imply: minimal
 
 # libraries

@@ -1,0 +1,10 @@
+#Description: Enlightenment Foundation Libraries (Extra Embedded) 
+#Imply: core
+
+# EFL Extra Embedded
+#
+# see: http://enlightenment.sourceforge.net/Libraries/images/_images/efl.png
+#
+X ewl
+X etox
+

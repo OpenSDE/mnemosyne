@@ -1,0 +1,19 @@
+#Description: Enlightenment Foundation Libraries (Core Embedded)
+
+# packages we need to build EFL Core Embedded
+X pkgconfig
+X texinfo
+X zlib
+X libjpg
+X freetype
+
+# EFL Core Embedded
+#
+# http://enlightenment.sourceforge.net/Libraries/images/_images/efl.png
+#
+X edb
+X eet
+X evas
+X ecore
+X embryo
+X edje
