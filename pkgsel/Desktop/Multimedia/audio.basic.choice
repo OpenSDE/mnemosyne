@@ -1,4 +1,8 @@
 #Description: Basic Audio and Media Support
 #Imply: minimal
+
+# libraries
+X xine-lib
+
 X mplayer
 X bc
