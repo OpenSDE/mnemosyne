@@ -9,10 +9,15 @@ X libjpg
 X freetype
 
 # libs needed for minimal e17 support
+# EFL Core Embedded
+X edb
 X eet
 X evas
 X ecore
 X embryo
 X edje
+# EFL Extra Embedded
+X ewl
+X etox
 
-X e
+X e 
