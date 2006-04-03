@@ -1,0 +1,4 @@
+#Dependencies: NETWORK E17!='' E17!='none' E17!='minimal'
+
+X erss
+X embrace
