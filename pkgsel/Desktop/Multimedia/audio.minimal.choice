@@ -1,2 +1,7 @@
 #Description: Minimal Audio and Media Support
 X alsa-*
+
+X libogg
+X libvorbis
+X libmad
+X ffmpeg
