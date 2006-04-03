@@ -1,11 +1,21 @@
 #Description: VoIP-PBX/PSTN-Gateway 
 #Dependencies: NETWORK
+#Forced: AUDIO=minimal
 
 X asterisk
 
 X libpri
 X zaptel
 
+X mpg321
+
 # zaptel dependencies
 X slang
 X newt
+
+# needed by newt
+X popt
+
+# needed by mpg321
+X libid3tag
+X libao
