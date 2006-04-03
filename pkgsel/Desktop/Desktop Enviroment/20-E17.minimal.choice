@@ -1,6 +1,9 @@
 #Description: Minimal Enlightenment DR17 Desktop
 #Dependencies: X!=none
 
+# Enlightenment
+X e
+
 # packages we need to build minimal e17 support
 X pkgconfig
 X texinfo
@@ -8,7 +11,9 @@ X zlib
 X libjpg
 X freetype
 
-# libs needed for minimal e17 support
+# libs for our minimal e17 support
+# see: http://enlightenment.sourceforge.net/Libraries/images/_images/efl.png
+
 # EFL Core Embedded
 X edb
 X eet
@@ -16,8 +21,15 @@ X evas
 X ecore
 X embryo
 X edje
+
 # EFL Extra Embedded
 X ewl
 X etox
 
-X e 
+# Enlightenment Core Libraries
+X imlib2
+X imlib2_loaders
+X epeg
+X epsilon
+X esmart
+X emotion
