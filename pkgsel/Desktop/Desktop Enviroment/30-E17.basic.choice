@@ -2,7 +2,4 @@
 #Dependencies: X!=none
 #Imply: minimal
 
-X imlib2
-X imlib2_loaders
-
 X entrance
