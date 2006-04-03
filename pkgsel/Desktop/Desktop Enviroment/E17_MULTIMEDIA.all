@@ -4,3 +4,4 @@ X eclair
 
 # eclair dependencies
 X taglib
+X sqlite
