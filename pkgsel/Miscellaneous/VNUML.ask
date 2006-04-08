@@ -1,11 +1,11 @@
 #Description: Virtual Network Simulation
-
+#Forced: VLAN BRIDGE 
 X vnuml
 
 # Dependencies for vnuml
-X bridge-utils
-X vlan
 X uml_utilities
+X cdrtools 
+
 X perl-error
 X perl-class-data-inheritable
 X perl-devel-stacktrace
@@ -21,4 +21,3 @@ X perl-netaddr-ip
 X perl-term-readkey
 X perl-net-ipv4addr
 X perl-net-ipv6addr
-
