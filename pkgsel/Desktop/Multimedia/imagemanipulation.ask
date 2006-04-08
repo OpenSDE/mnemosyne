@@ -1,3 +1,10 @@
 #Description: Image Manipulation
 
 X imagemagick
+
+# Inkscape vector graphics editor
+X inkscape
+
+# Inkscape dependencies
+X boehm-gc
+X libxslt
