@@ -32,3 +32,5 @@ X gnome-icon-theme
 # needed by gtkhtml
 X gail
 
+# needed by orbit2
+X libidl

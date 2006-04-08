@@ -2,7 +2,6 @@
 #Dependencies: GTK
 #Imply: minimal
 
-X libidl
 X libxml
 X perl-xml-parser
 X nautilus
