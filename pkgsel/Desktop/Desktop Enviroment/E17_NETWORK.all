@@ -1,4 +1,8 @@
 #Dependencies: NETWORK E17!='' E17!='none' E17!='minimal'
 
 X erss
+
+# ERSS dependencies
+X libxml
+
 X embrace
