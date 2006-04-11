@@ -1,0 +1,14 @@
+#Description: Encryption Support (PGP, S/MIME)
+
+X gnupg
+X gnupg2
+X gpgme
+     
+X gnupth
+X libassuan
+X libgpg-error
+X libgcrypt
+X libksba
+
+X dirmngr
+X pinentry
