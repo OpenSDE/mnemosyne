@@ -1,0 +1,10 @@
+#Description: SmartCard Support
+#Dependencies: ENCRYPTION
+X opensc
+
+X openct
+
+X pcsc-lite
+
+# things we should better have
+X libusb
