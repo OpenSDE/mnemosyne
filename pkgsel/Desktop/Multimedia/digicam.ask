@@ -5,3 +5,6 @@ X libusb
 X libexif
 X libptp
 X libgphoto
+
+# RAW Support
+X dcraw
