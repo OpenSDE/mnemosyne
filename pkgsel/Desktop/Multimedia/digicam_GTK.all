@@ -1,0 +1,9 @@
+#Dependencies: GTK DIGICAM
+
+X gtkam
+
+# gtkam dependencies
+X libexif-gtk
+
+# RAW Utilitie + Gimp plug-in 
+X ufraw
