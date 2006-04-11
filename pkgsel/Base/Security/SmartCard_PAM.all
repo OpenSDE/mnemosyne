@@ -1,0 +1,3 @@
+#Dependencies: PAM SMARTCARD
+
+X pam_pkcs11
