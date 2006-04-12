@@ -1,0 +1,17 @@
+#Dependencies: GRAPHIC_2D!='' GRAPHIC_2D!='none' GRAPHIC_2D!='minimal' GTK
+
+# The Gimp
+X gimp
+
+# Gimp Dependencies
+X lcms 
+X libmng 
+X libart_lgpl23
+X librsvg
+
+# Inkscape vector graphics editor
+X inkscape
+
+# Inkscape dependencies
+X boehm-gc
+X libxslt
