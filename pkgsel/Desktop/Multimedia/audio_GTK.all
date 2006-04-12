@@ -1,0 +1,6 @@
+#Dependencies: GTK AUDIO!='' AUDIO!='none' AUDIO!='minimal' 
+
+X audacious
+
+X libglade
+
