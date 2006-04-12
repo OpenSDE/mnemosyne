@@ -13,3 +13,6 @@ X e-modules
 X engage
 X entice
 X exhibit
+
+# Unicode capable Terminal
+X rxvt-unicode
