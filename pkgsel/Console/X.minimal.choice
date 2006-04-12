@@ -1,4 +1,4 @@
-#Description: Minimal X.org Suppport
+#Description: Minimal X.org Support
 
 X ed
 X expat
@@ -7,69 +7,65 @@ X libjpeg
 X libpng
 X libtiff
 
-X freetype
-
-# joined at 2.1
+# X11R6 for 2.1
 X xorg
 
-# and splitted X.org at 2.2
-X appres
-X bdftopcf
-X beforelight
+# modular X.org X11R7 for 2.2 
+X xorg-server
+
+# Base
+X xdm
+X mesa
+X xinit
+X xauth
+X iceauth
+
+# enabled only for 2.2
+# xtrans
+X xau
+X rgb
+X xbitmaps
+
+# Misc Xorg Tools 
+X xset
+X xsetmode
+X xsetpointer
+X xsetroot
+
+# Protocols 
 X bigreqsproto
-X bitmap
-X cf
 X compositeproto
 X damageproto
 X dmxproto
-X editres
-X encodings
-X evieext
-X fdclock
 X fixesproto
-X font-adobe
-X font-adobe-utopia
-X font-adobe-utopia-type1
-X font-alias
-X font-arabic-misc
-X font-bh
-X font-bh-lucidatypewriter
-X font-bh-ttf
-X font-bh-type1
-X font-bitstream
-X font-bitstream-type1
-X font-cronyx-cyrillic
-X font-cursor-misc
-X font-daewoo-misc
-X font-dec-misc
-X font-ibm-type1
-X font-isas-misc
-X font-jis-misc
-X font-micro-misc
-X font-misc-cyrillic
-X font-misc-misc
-X font-mutt-misc
-X font-schumacher-misc
-X font-screen-cyrillic
-X font-sony-misc
-X font-sun-misc
-X font-util
-X font-winitzki-cyrillic
-X font-xfree86-type1
 X fontcacheproto
-X fontconfig
 X fontsproto
-X fonttosfnt
-X fslsfonts
-X fstobdf
-X gccmakedep
 X glproto
-X iceauth
-X ico
-X imake
 X inputproto
 X kbproto
-X lbxproxy
+X panoramixproto
+X printproto
+X randrproto
+X recordproto
+X renderproto
+X resourceproto
+X scrnsaverproto
+X trapproto
+X videoproto
+X xcmiscproto
+X xextproto
+X xf86bigfontproto
+X xf86dgaproto
+X xf86driproto
+X xf86miscproto
+X xf86rushproto
+X xf86vidmodeproto
+X xineramaproto
+# enabled only for 2.2
+# xproto
+X xproxymanagementprotocol
+
+# Libraries
 X libdmx
 X libdrm
 X libfontenc
@@ -112,80 +108,11 @@ X libxvmc
 X libxxf86dga
 X libxxf86misc
 X libxxf86vm
-X listres
-X luit
-X makedepend
-X mkfontdir
-X mkfontscale
-X oclock
-X panoramixproto
-X pclcomp
-X printproto
-X proxymngr
-X randrproto
-X recordproto
-X renderproto
-X resourceproto
-X rgb
-X rstart
-X scripts
-X scrnsaverproto
-X setxkbmap
-X showfont
-X smproxy
-X trapproto
-X twm
-X util-macros
-X videoproto
-X viewres
-X x11perf
-X xauth
-X xbiff
-X xbitmaps
-X xcalc
-X xclipboard
-X xclock
-X xcmiscproto
-X xcmsdb
-X xconsole
-X xcursor-themes
-X xcursorgen
-X xdbedizzy
-X xditview
-X xdm
-X xdpyinfo
-X xedit
-X xev
-X xextproto
-X xeyes
-X xf86-input-acecad
-X xf86-input-aiptek
-X xf86-input-calcomp
-X xf86-input-citron
-X xf86-input-digitaledge
-X xf86-input-dmc
-X xf86-input-dynapro
-X xf86-input-elo2300
-X xf86-input-elographics
-X xf86-input-evdev
-X xf86-input-fpit
-X xf86-input-hyperpen
-X xf86-input-jamstudio
-X xf86-input-joystick
-X xf86-input-keyboard
-X xf86-input-magellan
-X xf86-input-magictouch
-X xf86-input-microtouch
-X xf86-input-mouse
-X xf86-input-mutouch
-X xf86-input-palmax
-X xf86-input-penmount
-X xf86-input-sample
-X xf86-input-spaceorb
-X xf86-input-summa
-X xf86-input-tek4957
-X xf86-input-ur98
-X xf86-input-void
+
+X evieext
+
+# Video drivers
+# TODO -> moving video drivers section to an own hardware module
 X xf86-video-apm
 X xf86-video-ark
 X xf86-video-ati
@@ -198,6 +125,7 @@ X xf86-video-glint
 X xf86-video-i128
 X xf86-video-i740
 X xf86-video-i810
+X xf86-video-impact
 X xf86-video-imstt
 X xf86-video-mga
 X xf86-video-neomagic
@@ -211,6 +139,13 @@ X xf86-video-savage
 X xf86-video-siliconmotion
 X xf86-video-sis
 X xf86-video-sisusb
+X xf86-video-sunbw2
+X xf86-video-suncg14
+X xf86-video-suncg3
+X xf86-video-suncg6
+X xf86-video-sunffb
+X xf86-video-sunleo
+X xf86-video-suntcx
 X xf86-video-tdfx
 X xf86-video-tga
 X xf86-video-trident
@@ -220,64 +155,61 @@ X xf86-video-vga
 X xf86-video-via
 X xf86-video-vmware
 X xf86-video-voodoo
-X xf86bigfontproto
-X xf86dga
-X xf86dgaproto
-X xf86driproto
-X xf86miscproto
-X xf86rushproto
-X xf86vidmodeproto
-X xfd
-X xfontsel
-X xfs
-X xfsinfo
-X xfwp
-X xgamma
-X xgc
-X xhost
-X xineramaproto
-X xinit
+
+# Input drivers
+X xf86-input-keyboard
+X xf86-input-mouse
+
+# Keyboard 
 X xkbcomp
 X xkbdata
-X xkbevd
-X xkbprint
-X xkbutils
-X xkill
-X xload
-X xlogo
-X xlsatoms
-X xlsclients
-X xlsfonts
-X xmag
-X xman
-X xmessage
-X xmh
-X xmodmap
-X xmore
-X xorg-server
-X xphelloworld
-X xplsprinters
-X xpr
-X xprehashprinterlist
-X xprop
-#X xproto	# enabled only for 2.2
-X xproxymanagementprotocol
-#X xrandr	# enabled only for 2.2
-X xrdb
-X xrefresh
-X xset
-X xsetmode
-X xsetpointer
-X xsetroot
-X xsm
-X xstdcmap
-#X xtrans	# enalbed only for 2.2
-X xtrap
-X xvidtune
-X xvinfo
-X xwd
-X xwininfo
-X xwud
+X setxkbmap
 
-# needed by xorg-server
-X mesa
+X xcursor-themes
+X xcursorgen
+
+# Fonts
+X font-adobe
+X font-adobe-utopia
+X font-adobe-utopia-type1
+X font-alias
+X font-arabic-misc
+X font-bh
+X font-bh-lucidatypewriter
+X font-bh-ttf
+X font-bh-type1
+X font-bitstream
+X font-bitstream-type1
+X font-cronyx-cyrillic
+X font-cursor-misc
+X font-daewoo-misc
+X font-dec-misc
+X font-ibm-type1
+X font-isas-misc
+X font-jis-misc
+X font-micro-misc
+X font-misc-cyrillic
+X font-misc-misc
+X font-mutt-misc
+X font-schumacher-misc
+X font-screen-cyrillic
+X font-sony-misc
+X font-sun-misc
+X font-util
+X font-winitzki-cyrillic
+X font-xfree86-type1
+
+# misc font tools
+X freetype
+X fontconfig
+X mkfontdir
+X mkfontscale
+X bdftopcf
+X fstobdf
+X fslsfonts
+
+# seems we need those packages to build ;)
+X makedepend
+X gccmakedep
+X imake
+X cf
