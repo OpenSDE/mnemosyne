@@ -1,7 +1,16 @@
 #Description: Basic Audio and Media Support
 #Imply: minimal
 
-# libraries
+# codecs
+X w32codec
+ 
+X mpg321
+X libid3tag
+X libao
+
+# MPEG1 and 4
+X libfame
+
 X xine-lib
 
 X mplayer
