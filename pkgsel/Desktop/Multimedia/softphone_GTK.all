@@ -1,0 +1,13 @@
+#Dependencies: GTK SOFTPHONE
+
+X ekiga
+
+X esound
+
+# please enable openldap
+X pwlib
+X opal
+
+# needed by esound
+X audiofile
+
