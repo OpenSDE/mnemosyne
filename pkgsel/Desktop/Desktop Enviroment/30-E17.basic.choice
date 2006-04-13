@@ -3,16 +3,20 @@
 #Forced: EFL=extra
 #Imply: minimal
 
+X evfs
+
 # libraries
 X etk
 X engrave
 
+# Applications, Modules and Tools
 X entrance
 X e-utils
 X e-modules
 X engage
 X entice
 X exhibit
+X ephoto
 
 # Unicode capable Terminal
 X rxvt-unicode
