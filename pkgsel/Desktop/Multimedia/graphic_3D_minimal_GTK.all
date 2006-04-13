@@ -1,0 +1,7 @@
+#Dependencies: GTK GRAPHIC_3D!='' GRAPHIC_3D!=none
+
+X gtkglext
+X gtkglextmm
+
+# Cairo OpenGL Backend Support
+X glitz

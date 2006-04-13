@@ -1,0 +1,14 @@
+#Description: 3D Modeling Applications
+
+X blender
+X wings3d
+
+# needed by blender
+X scons
+X libsdl
+X openal
+X freealut
+
+# needed by wings3d
+X erlang-otp
+X esdl
