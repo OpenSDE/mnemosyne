@@ -1,3 +1,8 @@
 #Description: Minimal Tools for 2D Bitmap and Vector Graphics
 
 X imagemagick
+
+# libraries for additional image formats
+# Note: perhaps we should even move libungif to a different module
+X libungif
+
