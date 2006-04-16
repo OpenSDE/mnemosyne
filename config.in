@@ -13,6 +13,8 @@
 # GNU General Public License can be found in the file COPYING.
 # --- T2-COPYRIGHT-NOTE-END ---
 
+#Description: Mnemosyne Linux
+
 const SDECFG_TRG_MNEMOSYNE ${target:-$SDECFG_TARGET}
 
 if [ ! -s $cfgtmpdir/mnemosyne.config.in ]; then
