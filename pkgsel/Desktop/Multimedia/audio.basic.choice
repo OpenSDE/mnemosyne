@@ -7,9 +7,18 @@ X w32codec
 X mpg321
 X libid3tag
 X libao
+X libcdio
 
 # MPEG1 and 4
 X libfame
+
+X gstreamer
+X gst-plugins-base
+X gst-plugins-good
+X gst-ffmpeg
+
+#needed by gst-plugins-base
+X liboil
 
 X xine-lib
 
