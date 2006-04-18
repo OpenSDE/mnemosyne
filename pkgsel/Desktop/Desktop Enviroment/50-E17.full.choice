@@ -1,5 +1,6 @@
 #Description: Full Enlightenment DR17 Desktop
 #Dependencies: GTK X!=none
+#Imply: basic
 
 X xine-lib
 X taglib
