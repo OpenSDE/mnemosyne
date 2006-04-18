@@ -1,0 +1,13 @@
+#Description: Basic 2D Bitmap and Vector Graphic Applications with Panorama Support
+#Imply: basic
+#Dependencies: X!='none'
+#Forced: GTK MONO
+
+X libpano
+X enblend
+X hugin
+X autopano-sift
+
+# needed by autopano-sift
+X libgdiplus
+X gtk-sharp
