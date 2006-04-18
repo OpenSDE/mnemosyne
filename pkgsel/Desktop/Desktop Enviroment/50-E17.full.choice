@@ -1,5 +1,6 @@
 #Description: Full Enlightenment DR17 Desktop
-#Dependencies: GTK X!=none
+#Dependencies: X!=none
+#Forced: EFL=extra
 #Imply: basic
 
 X xine-lib
