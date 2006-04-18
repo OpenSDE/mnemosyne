@@ -9,6 +9,9 @@ X libmng
 X libart_lgpl23
 X librsvg
 
+X libsvg
+X libsvg-cairo
+
 # Inkscape vector graphics editor
 X inkscape
 
