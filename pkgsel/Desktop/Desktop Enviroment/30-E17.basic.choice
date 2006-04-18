@@ -18,5 +18,9 @@ X entice
 X exhibit
 X ephoto
 
+X eterm
+# needed by eterm
+X libast
+
 # Unicode capable Terminal
 X rxvt-unicode
