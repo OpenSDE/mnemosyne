@@ -4,6 +4,10 @@ X audacious
 
 # needed by audacious
 X libglade
+
+# needed by libglade
+X libxml
+
 # Note: perhaps we should move libsndfile to audio.basic.choice!
 X libsndfile
 X libsamplerate
