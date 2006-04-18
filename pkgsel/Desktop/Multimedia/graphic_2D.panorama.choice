@@ -1,7 +1,7 @@
 #Description: Basic 2D Bitmap and Vector Graphic Applications with Panorama Support
 #Imply: basic
 #Dependencies: X!='none'
-#Forced: GTK MONO BOOST
+#Forced: GTK MONO BOOST WXWIDGETS
 
 X libpano
 X enblend
