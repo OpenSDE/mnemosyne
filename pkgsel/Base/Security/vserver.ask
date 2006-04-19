@@ -3,5 +3,3 @@
 #Dependencies: BOOT!=vserver
 X vserver
 X wget
-
-X unionfs
