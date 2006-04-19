@@ -1,4 +1,5 @@
 #Description: Wireless Networking
+#Dependencies: NETWORK
 
 X wireless-tools
 X pcmcia-cs
