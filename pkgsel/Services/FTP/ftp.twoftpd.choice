@@ -1,0 +1,5 @@
+#Description: Simple FTP Service
+#Dependencies: NETWORK
+X bglibs
+X cvm
+X twoftpd
