@@ -1,8 +1,9 @@
 #Description: Virtual Network Simulation
 #Forced: VLAN BRIDGE 
 X vnuml
+X honeyd
 
-# Dependencies for vnuml
+# needed by vnuml
 X uml_utilities
 X cdrtools 
 
@@ -21,3 +22,9 @@ X perl-netaddr-ip
 X perl-term-readkey
 X perl-net-ipv4addr
 X perl-net-ipv6addr
+
+# needed by honeyd
+X libpcap
+X libdnet
+X libevent
+X libdnsres
