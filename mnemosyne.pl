@@ -293,15 +293,14 @@ sub render_widgets_folder {
 
 			# opening
 			print "${offset}if [ \"\$$subfolder->{var}\" == 1 ]; then\n";
-			print "${offset}\tcomment '-- $subfolder->{desc}'\n";
-			print "${offset}\tblock_begin 2\n";
+			print "${offset}\tmenu_begin $subfolder->{var} '$subfolder->{desc}'\n";
 			print "${offset}fi\n";
 
 			render_widgets_folder($::FOLDER{$_},"$offset\t");
 
 			# closing
 			print "${offset}if [ \"\$$subfolder->{var}\" == 1 ]; then\n";
-			print "${offset}\tblock_end\n";
+			print "${offset}\tmenu_end\n";
 			print "${offset}fi\n";
 		} else {
 			my $module=$::MODULE{$_};
