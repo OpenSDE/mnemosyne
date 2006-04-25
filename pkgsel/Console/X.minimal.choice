@@ -22,7 +22,7 @@ X iceauth
 
 # enabled only for 2.2
 # xtrans
-X xau
+# xau
 X rgb
 X xbitmaps
 
