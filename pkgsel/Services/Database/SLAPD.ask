@@ -1,3 +1,4 @@
 #Description: OpenLDAP Server
 #Forced: LDAP
+#Dependencies: NETWORK
 
