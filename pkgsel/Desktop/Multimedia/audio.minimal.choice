@@ -5,3 +5,6 @@ X libogg
 X libvorbis
 X libmad
 X ffmpeg
+
+# needed by alsa-plugins
+X pkgconfig
