@@ -1,4 +1,5 @@
 #Description: SNMP (Simple Network Management Protocol)
+#Dependencies: NETWORK
 
 X net-snmp
 
