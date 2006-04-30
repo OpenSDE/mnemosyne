@@ -26,15 +26,12 @@ if [ ! -s $cfgtmpdir/mnemosyne.config.in ]; then
 	fi
 fi
 
-block_begin 5
-	rm -f "$cfgtmpdir/mnemosyne.postpkgfilter.in"
-	if [ -s "$cfgtmpdir/mnemosyne.config.in" ]; then
-		. "$cfgtmpdir/mnemosyne.rules.in"
-		. "$cfgtmpdir/mnemosyne.config.in"
-	else
-		comment ' '
-		comment 'ERROR: plugins config was not rendered!'
-	fi
-block_end
-
-block_begin 7
+rm -f "$cfgtmpdir/mnemosyne.postpkgfilter.in"
+if [ -s "$cfgtmpdir/mnemosyne.config.in" ]; then
+	. "$cfgtmpdir/mnemosyne.rules.in"
+	. "$cfgtmpdir/mnemosyne.config.in"
+else
+	comment ' '
+	comment 'ERROR: plugins config was not rendered!'
+	comment ' '
+fi
