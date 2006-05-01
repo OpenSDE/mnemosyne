@@ -307,6 +307,8 @@ sub render_widgets_folder {
 			my $var=$module->{var};
 			my $conffile="$module->{location}/$module->{key}.conf"
 				if -f "$module->{location}/$module->{key}.conf";
+			my $noconffile="$module->{location}/$module->{key}-no.conf"
+				if -f "$module->{location}/$module->{key}-no.conf";
 
 			print "${offset}# $var\n";
 
@@ -319,6 +321,8 @@ sub render_widgets_folder {
 				print "${offset}if \[ -n \"\$$var\" \]; then\n";
 				print "${offset}\tchoice $var \$$defaultvar \$$listvar\n";
 				print "${offset}\t. $conffile\n" if $conffile;
+				print "${offset}\telse\n" if $noconffile;
+				print "${offset}\t. $noconffile\n" if $noconffile;
 				print "${offset}fi\n";
 
 			} elsif ($module->{kind} == ASK) {
@@ -329,11 +333,14 @@ sub render_widgets_folder {
 				print "${offset}if \[ -n \"\$$var\" \]; then\n";
 				print "${offset}\tbool '$module->{desc}' $module->{var} $default\n";
 				print "${offset}\t\[ \"\$$var\" == 1 \] && . $conffile\n" if $conffile;
+				print "${offset}\t\[ \"\$$var\" != 1 \] && . $noconffile\n" if $noconffile;
 				print "${offset}fi\n";
 			} elsif ($conffile) {
 				# ALL, only if $conffile
 				print "${offset}if \[ -n \"\$$var\" \]; then\n";
 				print "${offset}\t. $conffile\n" if $conffile;
+				print "${offset}\telse\n" if $noconffile;
+				print "${offset}\t. $noconffile\n" if $noconffile;
 				print "${offset}fi\n";
 				}
 			}
