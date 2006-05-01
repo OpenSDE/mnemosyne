@@ -1,7 +1,8 @@
-#Description: ligHTTPD, small and secure fastcgi Web Server
+#Description: Small and secure fastcgi Web Server
 #Dependencies: NETWORK
 
 X lighttpd
 - apache
 - pound
 - gatling
+- nginx
