@@ -1,4 +1,4 @@
-#Dependencies: KDE!='' KDE!=none KDE!=qt DIGICAM
+#Dependencies: KDE!='' KDE!=none DIGICAM
 X imlib2 
 X libkexif 
 X libkipi

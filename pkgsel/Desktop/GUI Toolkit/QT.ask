@@ -1,4 +1,3 @@
-#Description: No KDE, but QT.
 #Dependencies: X!=none
 
 X lcms
