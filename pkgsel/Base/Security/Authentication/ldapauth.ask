@@ -1,5 +1,5 @@
 #Description: PAM LDAP Authentication
-#Dependencies: PAM
+#Dependencies: PAM NETWORK
 #Forced: LDAP
 
 X pam_ldap
