@@ -1,0 +1,8 @@
+#Description: High performance http and reverse-proxy server
+#Dependencies: NETWORK
+
+X nginx
+- pound
+- gatling
+- lighttpd
+- apache
