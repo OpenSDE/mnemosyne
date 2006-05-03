@@ -1,0 +1,3 @@
+#Description: No HTTP Proxy
+#Dependencies: NETWORK
+#Default: none
