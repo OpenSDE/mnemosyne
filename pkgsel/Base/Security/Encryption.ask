@@ -10,5 +10,4 @@ X libgpg-error
 X libgcrypt
 X libksba
 
-X dirmngr
 X pinentry
