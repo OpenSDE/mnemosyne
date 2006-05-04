@@ -1,0 +1,6 @@
+# 3D Audio Support
+#Dependencies: AUDIO!='' AUDIO!='none' AUDIO!='minimal' GRAPHIC_3D!='' GRAPHIC_3D!='none'
+
+X libsdl
+X openal
+X freealut
