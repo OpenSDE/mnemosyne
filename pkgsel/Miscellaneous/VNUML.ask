@@ -1,5 +1,5 @@
 #Description: Virtual Network Simulation
-#Forced: VLAN BRIDGE 
+#Forced: VLAN ROUTER=bridge 
 X vnuml
 X honeyd
 
