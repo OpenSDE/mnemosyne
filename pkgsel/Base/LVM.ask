@@ -4,3 +4,4 @@
 X device-mapper
 X lvm2
 - lvm
+X cryptsetup-luks
