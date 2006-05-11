@@ -6,3 +6,6 @@ X gatling
 - nginx
 - lighttpd
 - apache
+
+#needed by gatling
+X libowfat
