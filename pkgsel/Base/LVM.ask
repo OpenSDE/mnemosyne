@@ -5,3 +5,6 @@ X device-mapper
 X lvm2
 - lvm
 X cryptsetup-luks
+
+# needed by cryptsetup-luks
+X popt
