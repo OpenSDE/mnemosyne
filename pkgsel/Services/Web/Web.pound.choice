@@ -9,3 +9,6 @@ X gatling
 
 #needed by gatling
 X libowfat
+
+#recommeneded for pound
+X pcre
