@@ -1,0 +1,11 @@
+#Description: astGUIclient/VICIDial
+#Dependencies: VOIP_PBX PHP
+
+X astguiclient
+X unzip
+X perl-digest-md5
+X perl-digest-sha1
+X perl-net-mysql
+X perl-net-telnet
+X perl-asterisk
+X ploticus
