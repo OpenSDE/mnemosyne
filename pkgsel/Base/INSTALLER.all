@@ -1,0 +1,8 @@
+#Dependencies: CFGTEMP_TREE!=21 BOOT!=vserver
+
+- lilo
+X grub
+X fget
+X eject
+X partd
+X nvi
