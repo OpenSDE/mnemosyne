@@ -129,7 +129,7 @@ sub scanmodule {
 	if (exists $current{deps}) {
 		my @deps;
 		for ( split (/\s+/,$current{deps}) ) {
-			$_="SDECFG_$prefix\_$_" unless /^SDECFG/;
+			$_="SDECFG_$prefix\_$_" unless /^(SDECFG|CFGTEMP)/;
 
 			if (/=/) {
 				m/(.*?)(==|!=|=)(.*)/i;
