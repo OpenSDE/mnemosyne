@@ -17,6 +17,13 @@
 
 const SDECFG_TRG_MNEMOSYNE ${target:-$SDECFG_TARGET}
 
+case "$sdever" in
+	2.1*)   CFGTEMP_TREE=21    ;;
+	2.2*)   CFGTEMP_TREE=22    ;;
+	2.3*)   CFGTEMP_TREE=23    ;;
+	*)      CFGTEMP_TREE=unknown       ;;
+esac
+
 if [ ! -s $cfgtmpdir/mnemosyne.config.in ]; then
 
 	if ! perl ./target/$SDECFG_TRG_MNEMOSYNE/mnemosyne.pl "./target/$SDECFG_TRG_MNEMOSYNE/pkgsel" TRG_MNEMOSYNE	\
