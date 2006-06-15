@@ -600,6 +600,7 @@ sub render_rules {
 
 	# pkgsel list
 	for (@$::MODULES) {
+		if (exists $::MODULE{$_}) {
 		my $module = $::MODULE{$_};
 		print "\n#\n# $module->{var} ("
 			. ($module->{kind} == ALL ? "ALL" : ($module->{kind} == ASK ? "ASK" : "CHOICE" ) )
@@ -615,6 +616,7 @@ sub render_rules {
 		} else {
 			render_rules_module($module,"");
 			}
+		}
 		}
 
 	print "\n#\n# enable folder with enabled subfolders\n#\n";
