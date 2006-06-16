@@ -1,10 +1,12 @@
 #Description: HAL and D-BUS support
+#Dependencies: FOOTPRINT=regular
 #Forced: PYTHON 
+
+X hal
+X dbus
 
 # stuff needed by HAL
 X libusb
 X popt
 X perl-xml-parser
 
-X hal
-X dbus
