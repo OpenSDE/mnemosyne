@@ -1,7 +1,5 @@
-#Dependencies: CFGTEMP_TREE!=21 BOOT!=vserver
+#Dependencies: CFGTEMP_TREE!=21 BOOT!=vserver BOOT!=initrd
 
-- lilo
-X grub
 X fget
 X eject
 X partd
