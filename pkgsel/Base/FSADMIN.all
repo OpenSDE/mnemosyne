@@ -1,0 +1,4 @@
+#Dependencies: BOOT!=vserver
+X reiserfsprogs
+X xfsprogs
+X e2fsprogs

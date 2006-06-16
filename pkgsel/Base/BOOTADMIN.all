@@ -1,7 +1,3 @@
-#Dependencies: BOOT!=vserver
+#Dependencies: BOOT!=vserver BOOT!=initrd
 X hdparm
 X smartmontools
-
-X reiserfsprogs
-X xfsprogs
-X e2fsprogs
