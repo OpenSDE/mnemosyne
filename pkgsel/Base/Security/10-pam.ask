@@ -1,3 +1,4 @@
 #Description: PAM Support
+#Dependencies: FOOTPRINT!=embedded
 #Default: 1
 X pam
