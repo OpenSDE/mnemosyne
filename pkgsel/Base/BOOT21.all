@@ -1,0 +1,4 @@
+#Dependencies: BOOT=HD CFGTEMP_TREE=21
+
+- grub
+X lilo
