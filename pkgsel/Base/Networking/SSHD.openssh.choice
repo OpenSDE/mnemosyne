@@ -1,4 +1,4 @@
 #Description: OpenSSH Server/Client
-#Dependencies: NETWORK
+#Dependencies: NETWORK FOOTPRINT!=embedded
 #Default: openssh
 X openssh
