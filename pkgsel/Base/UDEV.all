@@ -1,0 +1,3 @@
+#Dependencies: CFGTEMP_TREE!=21 BOOT!=vserver
+
+X udev
