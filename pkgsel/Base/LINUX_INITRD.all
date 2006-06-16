@@ -1,0 +1,9 @@
+#Dependencies: BOOT=HD KERNEL_LINUX
+X dietlibc
+
+X mkinitrd
+X cpio
+X disktype
+X pdksh
+X embutils
+X minised
