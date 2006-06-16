@@ -1,0 +1,4 @@
+#Description: run from within an initrd images
+#Forced: FOOTPRINT=embedded
+
+X cpio
