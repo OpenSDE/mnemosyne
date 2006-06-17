@@ -1,4 +1,5 @@
 #Description: No third-party Linux security extension
+#Default: none
 
 - grsecurity
 - rsbac

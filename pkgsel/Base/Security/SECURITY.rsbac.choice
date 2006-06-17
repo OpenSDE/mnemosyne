@@ -1,6 +1,5 @@
 #Description: RSBAC Support
 #Dependencies: BOOT!=vserver
-#Default: rsbac
 
 X rsbac 
 - grsecurity
