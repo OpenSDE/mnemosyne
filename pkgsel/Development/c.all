@@ -7,3 +7,10 @@ X make
 
 X bison
 X flex
+
+X binutils
+X bin86
+X nasm
+
+X ccache
+
