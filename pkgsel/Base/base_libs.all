@@ -1,7 +1,4 @@
 X readline
 X dialog
 
-X shadow
-X cracklib
-
 X openssl

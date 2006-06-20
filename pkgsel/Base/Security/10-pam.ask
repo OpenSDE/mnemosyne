@@ -2,3 +2,6 @@
 #Dependencies: FOOTPRINT!=embedded
 #Default: 1
 X pam
+
+X shadow
+X cracklib
