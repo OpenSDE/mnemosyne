@@ -1,0 +1,11 @@
+--- ./Makefile.orig	2006-06-20 17:26:41.000000000 +0200
++++ ./Makefile	2006-06-20 17:46:34.000000000 +0200
+@@ -9,7 +9,7 @@
+ 	@echo "nothing to do yet"
+ install:
+ 	install -m 755 src/sulogin.sh $(DESTDIR)$(SBINDIR)/sulogin
+-	for f in last wall mesg; do \
++	for f in last wall; do \
+ 		install -m 755 src/$$f.sh $(DESTDIR)$(BINDIR)/$$f ; \
+ 	done
+ 	ln -snf last $(DESTDIR)$(BINDIR)/lastb
