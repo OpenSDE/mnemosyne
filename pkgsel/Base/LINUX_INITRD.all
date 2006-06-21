@@ -1,4 +1,4 @@
-#Dependencies: BOOT=HD KERNEL_LINUX
+#Dependencies: BOOT=HD KERNEL_LINUX LIBC!=uclibc
 X dietlibc
 
 X mkinitrd
