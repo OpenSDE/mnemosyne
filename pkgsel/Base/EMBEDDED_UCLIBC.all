@@ -1,0 +1,3 @@
+#Dependencies: LIBC=uclibc FOOTPRINT=embedded
+
+X busybox

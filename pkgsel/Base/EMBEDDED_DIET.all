@@ -1,0 +1,5 @@
+#Dependencies: LIBC=dietlibc FOOTPRINT=embedded
+
+X embutils
+X libowfat
+- mktemp
