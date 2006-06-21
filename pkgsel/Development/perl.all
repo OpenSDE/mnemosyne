@@ -1,2 +1,4 @@
+#Dependencies: FOOTPRINT!=embedded
+
 X perl
 X bdb
