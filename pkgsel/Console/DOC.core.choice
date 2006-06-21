@@ -1,5 +1,5 @@
 #Description: Minimal Documentation
 #Default: core
-X groff
+
 X man
 X texinfo
