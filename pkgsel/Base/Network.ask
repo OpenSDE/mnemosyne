@@ -4,8 +4,7 @@
 # netstat (patch the rest out or find replacement)
 X net-tools
 
-# ping (patch the rest out or find replacement)
-X netkit-base
+X iputils
 
 # traceroute
 X traceroute
