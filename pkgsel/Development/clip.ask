@@ -1,4 +1,5 @@
 #Description: Clipper
+#Dependencies: DEVELOPMENT
 X clip
 X dbf
 X eg

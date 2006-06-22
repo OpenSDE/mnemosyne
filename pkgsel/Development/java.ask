@@ -1,4 +1,5 @@
 #Description: Java (Kaffe/Jikes)
+#Dependencies: DEVELOPMENT
 
 X java-dirtree
 X kaffe

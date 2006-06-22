@@ -1,4 +1,5 @@
 #Description: Generic Developer Tools (including T2 development)
+#Dependencies: DEVELOPMENT
 
 X strace
 X gdb
