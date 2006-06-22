@@ -1,0 +1,3 @@
+#Description: Include Development Tools and Libraries
+#Dependencies: FOOTPRINT!=embedded
+#Default: 1
