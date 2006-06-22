@@ -2,6 +2,5 @@
 
 X coreutils
 X ncurses
-X gettext
 
 X mktemp
