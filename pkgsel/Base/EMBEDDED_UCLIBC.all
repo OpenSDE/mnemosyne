@@ -13,3 +13,6 @@ X busybox
 - sed
 - tar
 - less
+- bash
+- kbd
+- vim
