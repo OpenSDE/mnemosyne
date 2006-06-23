@@ -1,3 +1,15 @@
 #Dependencies: LIBC=uclibc FOOTPRINT=embedded
 
 X busybox
+
+# required support is included on busybox
+- gzip
+- cpio
+- time
+- findutils
+- diffutils
+- patch
+- grep
+- sed
+- tar
+- less
