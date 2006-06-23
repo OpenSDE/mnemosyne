@@ -59,3 +59,7 @@ mnemosyne_postinstall() {
 	fi
 }
 
+if [ "$SDECFGSET_TGT_MNEMOSYNE_DEVELOPMENT" != 1 ]; then
+	echo_status "No developent files will be flisted"
+	var_append flistdel '|' '.*\.h|.*\.a|.*\.la|.*\.pc'
+fi
