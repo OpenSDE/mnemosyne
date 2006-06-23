@@ -18,3 +18,5 @@ X busybox
 - vim
 - e2fsprogs
 - util-linux
+- net-tools
+- module-init-tools
