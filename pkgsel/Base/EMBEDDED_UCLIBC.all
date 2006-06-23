@@ -20,3 +20,4 @@ X busybox
 - util-linux
 - net-tools
 - module-init-tools
+- runit-logacct
