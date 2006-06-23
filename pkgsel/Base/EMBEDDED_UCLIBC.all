@@ -21,3 +21,4 @@ X busybox
 - net-tools
 - module-init-tools
 - runit-logacct
+- udhcp
