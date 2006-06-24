@@ -1,0 +1,13 @@
+--- ./Makefile.orig	2006-06-24 10:11:03.000000000 +0000
++++ ./Makefile	2006-06-24 10:11:16.000000000 +0000
+@@ -8,9 +8,8 @@
+ all:
+ 	@echo "nothing to do yet"
+ install:
+-	for f in halt runlevel shutdown killall5; do \
++	for f in halt runlevel shutdown; do \
+ 		install -m 755 src/$$f.sh $(DESTDIR)$(SBINDIR)/$$f ; \
+ 	done
+ 	ln -snf halt $(DESTDIR)$(SBINDIR)/reboot
+ 	ln -snf halt $(DESTDIR)$(SBINDIR)/poweroff
+-	ln -snf $(SBINDIR)/killall5 $(DESTDIR)$(BINDIR)/pidof
