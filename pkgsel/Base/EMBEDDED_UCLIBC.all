@@ -11,6 +11,7 @@ X busybox
 - patch
 - grep
 - sed
+- gawk
 - tar
 - less
 - bash
