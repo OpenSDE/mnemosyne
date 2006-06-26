@@ -15,6 +15,7 @@ X grep
 X sed
 X gawk
 
+X openssl
 X gzip
 X bzip2
 X zlib
