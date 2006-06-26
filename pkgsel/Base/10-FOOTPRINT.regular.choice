@@ -1,8 +1,5 @@
 #Description: Regular weight System
 #Default: regular
+#Imply: light
 
-X coreutils
-X ncurses
 X gettext
-
-X mktemp
