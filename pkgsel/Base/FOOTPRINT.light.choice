@@ -4,3 +4,6 @@ X coreutils
 X ncurses
 
 X mktemp
+
+X readline
+X dialog
