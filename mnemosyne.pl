@@ -37,7 +37,7 @@ sub scandir {
 		$dirname=$relative;
 		$dirname=~ s/.*\///g;
 
-		$current{desc} = $dirname;
+		($current{desc} = $dirname) =~ s/_/ /g;
 		$current{var}  = $dirvar;
 	}
 
