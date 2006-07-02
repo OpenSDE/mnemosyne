@@ -1,0 +1,19 @@
+# please eliminate garbage packages out of mnemosyne-based systems
+
+# garbage replaced with bcron
+- at
+- cron
+
+# garbage replaced with clockspeed
+- ntp
+
+# garbage replaced with ipsvd
+- inetd
+- xinetd
+
+# garbage replaced with runit, or maybe some day with minit
+- sysvinit
+
+# garbage replaced with socklog
+- sysklogd
+- syslog-ng
