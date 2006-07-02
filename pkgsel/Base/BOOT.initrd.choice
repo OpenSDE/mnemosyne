@@ -2,3 +2,8 @@
 #Forced: FOOTPRINT=embedded
 
 X cpio
+
+# remove it so sysvinit/config.in doesn't enable it when seeing
+# that no other INIT is available
+- runit
+- minit
