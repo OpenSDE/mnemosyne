@@ -1,14 +1,7 @@
-X gcc
-
-X autoconf
-X automake
-X libtool
 X make
 
 X bison
-X flex
 
-X binutils
 X bin86
 X nasm
 
