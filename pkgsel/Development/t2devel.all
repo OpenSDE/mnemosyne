@@ -4,7 +4,3 @@ X diffutils
 X patchutils
 X patch
 X file
-
-
-# needed to create T2 ISO files
-X popt
