@@ -1,5 +1,2 @@
-#Dependencies: NETWORK
-
+#Dependencies: NETWORK BOOT!=initrd
 X ipsvd
-- inetd
-- xinetd

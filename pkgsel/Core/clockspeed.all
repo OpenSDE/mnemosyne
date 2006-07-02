@@ -1,2 +1,2 @@
+#Dependencies: BOOT!=initrd
 X clockspeed
-- ntp

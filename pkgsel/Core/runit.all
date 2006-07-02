@@ -1,5 +1,5 @@
+#Dependencies: BOOT!=initrd
 X runit
 X runit-shutdown
 X runit-logacct
-- sysvinit
 - minit

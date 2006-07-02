@@ -1,3 +1,2 @@
+#Dependencies: BOOT!=initrd
 X socklog
-- sysklogd
-- syslog-ng

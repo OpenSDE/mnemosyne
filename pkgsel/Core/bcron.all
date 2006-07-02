@@ -1,6 +1,4 @@
+#Dependencies: BOOT!=initrd
 X bcron
 X bglibs
 X ucspi-unix
-
-- at
-- cron
