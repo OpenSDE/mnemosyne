@@ -5,6 +5,8 @@ X strace
 X gdb
 
 X patchutils
+X diffutils
+
 X diffstat
 
 X curl
