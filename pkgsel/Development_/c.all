@@ -1,9 +1,9 @@
+#Dependencies: FOOTPRINT!=embedded
+
 X make
 
 X bison
 
 X bin86
 X nasm
-
-X ccache
 

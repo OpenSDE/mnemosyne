@@ -5,3 +5,5 @@ X gcc
 X binutils
 X flex
 X libtool
+
+X ccache
