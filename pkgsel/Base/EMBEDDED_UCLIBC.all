@@ -10,7 +10,6 @@ X busybox
 - diffutils
 - patch
 - grep
-- sed
 - gawk
 - tar
 - less
