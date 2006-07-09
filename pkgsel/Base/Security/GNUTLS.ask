@@ -1,0 +1,7 @@
+#Description: GnuTLS
+#Forced: ENCRYPTION
+
+X libtasn1
+X opencdk
+X gnutls 
+
