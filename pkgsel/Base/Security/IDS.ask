@@ -1,6 +1,6 @@
 #Description: IDS support 
-X libgcrypt
-X libgpg-error
+#Forced: ENCRYPTION
+
 X libtasn1
 X opencdk
 X gnutls 
