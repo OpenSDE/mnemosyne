@@ -1,0 +1,13 @@
+#Description: PGP and S/MIME support
+#Forced: ENCRYPTION
+
+X gnupg
+X gnupg2
+X gpgme
+     
+X gnupth
+X libassuan
+X libksba
+
+# what is this doing here?
+X pinentry

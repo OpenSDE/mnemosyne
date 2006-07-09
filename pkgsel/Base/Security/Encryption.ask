@@ -1,13 +1,7 @@
-#Description: Encryption Support (PGP, S/MIME)
+#Description: Basic Encryption Support
+#Default: 1
 
-X gnupg
-X gnupg2
-X gpgme
-     
-X gnupth
-X libassuan
-X libgpg-error
 X libgcrypt
-X libksba
 
-X pinentry
+# needed by libgcrypt
+X libgpg-error
