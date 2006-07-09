@@ -1,7 +1,7 @@
-#Description: run from within an initrd images
+#Description: Run from within an initrd images
 #Forced: FOOTPRINT=embedded
-
-X cpio
+X cramfs-tools
+X cramfsswap
 
 # remove it so sysvinit/config.in doesn't enable it when seeing
 # that no other INIT is available
