@@ -1,0 +1,5 @@
+#Dependencies: LVM ENCRYPTION
+X cryptsetup-luks
+
+# needed by cryptsetup-luks
+X popt
