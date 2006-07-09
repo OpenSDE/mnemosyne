@@ -1,11 +1,3 @@
 #Dependencies: GTK IM
-#Forced: ENCRYPTION
+#Forced: ENCRYPTION GNUTLS
 X gaim
-
-# needed by gaim to get msn
-X gnutls
-
-# needed by gnutls
-X libtasn1
-X lzo
-X opencdk
