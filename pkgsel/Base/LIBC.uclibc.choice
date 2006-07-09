@@ -1,4 +1,4 @@
-#Description: uclibc
+#Description: uClibc - small and good compatibility
 
 X uclibc 
 X uclibc++

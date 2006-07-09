@@ -1,4 +1,4 @@
-#Description: diet libC (less is more) 
+#Description: diet libC - very small, but some compatibility problems
 #Dependencies: FOOTPRINT!=regular
 
 X dietlibc 
