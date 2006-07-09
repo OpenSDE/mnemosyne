@@ -1,9 +1,6 @@
 #Description: IDS support 
-#Forced: ENCRYPTION
+#Forced: ENCRYPTION GNUTLS
 
-X libtasn1
-X opencdk
-X gnutls 
 X libprelude
 X prelude-lml
 
