@@ -1,14 +1,11 @@
 #Dependencies: GTK IM
+#Forced: ENCRYPTION
 X gaim
 
 # needed by gaim to get msn
 X gnutls
 
 # needed by gnutls
-X libgcrypt
 X libtasn1
 X lzo
 X opencdk
-
-# needed by libgcrypt
-X libgpg-error
