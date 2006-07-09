@@ -9,8 +9,6 @@ X util-linux
 X findutils
 X mktemp
 
-X bash
-
 X grep
 X sed
 X gawk

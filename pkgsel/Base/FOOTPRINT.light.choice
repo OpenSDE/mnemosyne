@@ -3,6 +3,7 @@
 X coreutils
 X ncurses
 
+X bash
 X mktemp
 
 X readline
