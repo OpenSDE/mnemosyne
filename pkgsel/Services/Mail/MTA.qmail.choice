@@ -1,3 +1,4 @@
+#Description: qmail with system authentication
 #Dependencies: NETWORK
 
 X qmail

@@ -1,3 +1,4 @@
+#Description: qmail with LDAP backend
 #Dependencies: LDAP NETWORK
 
 X qmail
