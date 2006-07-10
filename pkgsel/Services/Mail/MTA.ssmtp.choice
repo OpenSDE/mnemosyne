@@ -1,0 +1,4 @@
+#Description: Simple and lightweigth relay-only STMP
+#Dependencies: NETWORK
+
+X ssmtp

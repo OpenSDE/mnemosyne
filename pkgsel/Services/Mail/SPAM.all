@@ -1,4 +1,4 @@
-#Dependencies: MTA!='' MTA!=nullmailer
+#Dependencies: MTA!='' MTA!=nullmailer MTA!=ssmtp
 
 X qmail-scanner
 X clamav
