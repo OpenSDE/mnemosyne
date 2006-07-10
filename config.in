@@ -26,13 +26,11 @@ esac
 
 only_toolchain() {
 	local pkgs="$*"
-	set -x
 	if [ $# -gt 1 ]; then
 		pkgs="${pkgs// /\|}"
 	elif [ $# -eq 1 ]; then
 		true
 	fi
-	set +x
 
 	if [ "$pkgs" ]; then
 		pkgfilter sed -e "s,^\(.\) \(.\)[^ ]* \([^ ]*\) \([^ ]*\) \($pkgs\) ,\1 \2--------- \3 \4 \5 ,"
