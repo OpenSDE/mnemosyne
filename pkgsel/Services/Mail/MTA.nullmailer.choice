@@ -1,2 +1,5 @@
+#Description: Secure relay-only SMTP
 #Dependencies: NETWORK
+#Default: nullmailer
+
 X nullmailer
