@@ -24,8 +24,10 @@ case "$sdever" in
 	*)      CFGTEMP_TREE=unknown       ;;
 esac
 
-only_toolchain() {
+hack_stages() {
+	local stage="$1----------"; shift
 	local pkgs="$*"
+
 	if [ $# -gt 1 ]; then
 		pkgs="${pkgs// /\|}"
 	elif [ $# -eq 1 ]; then
@@ -33,7 +35,7 @@ only_toolchain() {
 	fi
 
 	if [ "$pkgs" ]; then
-		pkgfilter sed -e "s,^\(.\) \(.\)[^ ]* \([^ ]*\) \([^ ]*\) \($pkgs\) ,\1 \2--------- \3 \4 \5 ,"
+		pkgfilter sed -e "s,^\(.\) [^ ]* \([^ ]*\) \([^ ]*\) \($pkgs\) ,\1 ${stage:0:10} \2 \3 \4 ,"
 	fi
 }
 
