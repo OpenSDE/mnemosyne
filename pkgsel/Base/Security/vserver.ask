@@ -1,5 +1,21 @@
 #Description: Kernel Contexts support
-#Forced: NETWORK VLAN
+#Forced: NETWORK
 #Dependencies: BOOT!=vserver
 X vserver
-X wget
+
+X libvserver
+X vserver-utils
+
+# needed by vserver-utils
+X libconfuse
+X xmlrpc-c
+X libdbi
+X rddtool
+
+# needed by xmlrpc-c
+X curl
+
+# needed by rddtool
+X libart_lgpl23
+X libpng
+X freetype
