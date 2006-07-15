@@ -1,4 +1,4 @@
-#Dependencies: FOOTPRINT=regular
+#Dependencies: FOOTPRINT=light DEVELOPMENT
 
 X make
 
