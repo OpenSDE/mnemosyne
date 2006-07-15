@@ -4,6 +4,8 @@ X make
 
 X bison
 
+X diffutils
+
 X bin86
 X nasm
 
