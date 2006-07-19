@@ -1,0 +1,14 @@
+--- ./Makefile.orig	2006-07-19 21:51:07.000000000 +0200
++++ ./Makefile	2006-07-19 21:51:24.000000000 +0200
+@@ -85,11 +85,6 @@
+ else
+ 	$(INSTALL) -m 755 $(BOOT_PROGRAM) $(USRSBINDIR)
+ endif
+-	mkdir -p $(USRSHAREDIR)/udhcpc
+-	for name in bound deconfig nak renew script ; do \
+-		$(INSTALL) -m 755 samples/sample.$$name \
+-			$(USRSHAREDIR)/udhcpc/default.$$name ; \
+-	done
+ 	mkdir -p $(USRSHAREDIR)/man/man1
+ 	$(INSTALL) -m 644 dumpleases.1 $(USRSHAREDIR)/man/man1
+ 	mkdir -p $(USRSHAREDIR)/man/man5
