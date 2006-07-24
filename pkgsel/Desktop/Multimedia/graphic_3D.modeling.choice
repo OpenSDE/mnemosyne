@@ -8,6 +8,7 @@ X scons
 X libsdl
 X openal
 X freealut
+X openexr
 
 # needed by wings3d
 X erlang-otp
