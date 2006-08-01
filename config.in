@@ -18,10 +18,14 @@
 const SDECFG_TRG_MNEMOSYNE ${target:-$SDECFG_TARGET}
 
 case "$sdever" in
-	2.1*)   CFGTEMP_TREE=21    ;;
-	2.2*)   CFGTEMP_TREE=22    ;;
-	2.3*)   CFGTEMP_TREE=23    ;;
-	*)      CFGTEMP_TREE=unknown       ;;
+	2.1*)   CFGTEMP_TREE=21	;;
+	2.2*)   CFGTEMP_TREE=22	;;
+	2.3*)   CFGTEMP_TREE=23	;;
+	6.0*)	CFGTEMP_TREE=22	;;
+	7.0*)	CFGTEMP_TREE=23	;;
+	trunk)	CFGTEMP_TREE=22 ;;
+	vapor)	CFGTEMP_TREE=22 ;;
+	*)      CFGTEMP_TREE=unknown	;;
 esac
 
 hack_stages() {
