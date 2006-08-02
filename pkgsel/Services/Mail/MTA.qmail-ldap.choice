@@ -6,3 +6,6 @@ X qmqtool
 
 X mess822
 X mdmh
+
+# needed by qmial-ldap
+X shadow
