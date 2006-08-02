@@ -2,3 +2,4 @@
 #Dependencies: NETADMIN
 
 X l7-filter
+X ethtool
