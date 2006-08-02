@@ -1,0 +1,4 @@
+#Dependencies: HTTPPROXY=squid VIRUSSCANNER
+
+# needed by DansGuardian Antivirus plugin
+X libesmtp
