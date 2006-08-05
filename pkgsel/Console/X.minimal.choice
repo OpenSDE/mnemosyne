@@ -35,8 +35,8 @@ X xauth
 X iceauth
 
 # enabled only for 2.2
-# xtrans
-# xau
+X xtrans
+X xau
 X rgb
 X xbitmaps
 
@@ -76,7 +76,7 @@ X xf86rushproto
 X xf86vidmodeproto
 X xineramaproto
 # enabled only for 2.2
-# xproto
+X xproto
 X xproxymanagementprotocol
 
 # Libraries
@@ -223,7 +223,11 @@ X fstobdf
 X fslsfonts
 
 # seems we need those packages to build ;)
+X pkgconfig
 X makedepend
 X gccmakedep
 X imake
 X cf
+
+# needed by pkgconfig
+X glib
