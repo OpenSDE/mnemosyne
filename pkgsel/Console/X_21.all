@@ -1,6 +1,0 @@
-#Dependencies: CFGTEMP_TREE=21 X!=none
-
-O xproto
-O xtrans
-O xrandr
-O xau
