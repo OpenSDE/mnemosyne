@@ -21,20 +21,14 @@ X libjpeg
 X libpng
 X libtiff
 
-# X11R6 for 2.1
-X xorg
-
-# modular X.org X11R7 for 2.2 
-X xorg-server
-
 # Base
+X xorg-server
 X xdm
 X mesa
 X xinit
 X xauth
 X iceauth
 
-# enabled only for 2.2
 X xtrans
 X xau
 X rgb
@@ -75,7 +69,6 @@ X xf86miscproto
 X xf86rushproto
 X xf86vidmodeproto
 X xineramaproto
-# enabled only for 2.2
 X xproto
 X xproxymanagementprotocol
 
