@@ -15,3 +15,5 @@
 #Dependencies: BOOT!=vserver NETWORK
 X iproute2
 X iptables
+
+X rocknet
