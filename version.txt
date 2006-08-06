@@ -1,1 +1,1 @@
-Mnemosyne Linux v0.2-devel
+Mnemosyne Linux v0.3-trunk
