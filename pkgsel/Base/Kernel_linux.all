@@ -17,8 +17,6 @@
 X linux26
 X module-init-tools
 
-# only available on 2.1
-X rockplug
-# only available on 2.2
+X udev
 X hotplug++
 
