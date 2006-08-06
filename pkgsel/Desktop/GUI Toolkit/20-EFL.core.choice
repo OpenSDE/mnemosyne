@@ -21,6 +21,9 @@ X zlib
 X libjpg
 X freetype
 
+# needed by pkgconfig
+X glib
+
 # EFL Core Embedded
 #
 # http://enlightenment.sourceforge.net/Libraries/images/_images/efl.png
