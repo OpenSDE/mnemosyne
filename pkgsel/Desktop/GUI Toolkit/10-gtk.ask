@@ -18,6 +18,7 @@
 X gtk+
 X pango
 X atk
+X cairo
 
 # and C++ bindings
 X libsigc++
