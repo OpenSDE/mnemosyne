@@ -18,6 +18,7 @@ X audacious
 
 # needed by audacious
 X libglade
+X taglib
 
 # needed by libglade
 X libxml
