@@ -1,0 +1,7 @@
+#Description: Subversion (svn)
+#Dependencies: DEVELOPMENT
+
+X neon
+X subversion
+X apr
+X apr-util
