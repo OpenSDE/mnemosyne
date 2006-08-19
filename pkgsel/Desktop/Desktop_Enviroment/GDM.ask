@@ -18,3 +18,5 @@
 X gdm
 X librsvg
 
+# needed by gdm
+X gnome-doc-utils
