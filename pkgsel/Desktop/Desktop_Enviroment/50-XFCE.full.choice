@@ -14,7 +14,13 @@
 
 #Description: Full Xfce Desktop
 #Dependencies: GTK
-#Forced: PYTHON PRINTING
-#Imply: minimal basic good
+#Forced: PYTHON PRINTING AUDIO=basic
+#Imply: minimal basic fair
 
 X xfce4/*
+
+# needed by xfce4-sensors-plugin
+X lm_sensors
+
+# needed by verve-plugin
+X pcre
