@@ -17,26 +17,31 @@
 #Imply: minimal
 
 X xfdesktop
-X xffm
+X thunar
 X xfwm4
 
 X xfce4-session
 X xfce4-panel
 X xfce4-appfinder
-X xfce4-iconbox
 X xfce-mcs-manager
 
-# needed by xfce4-panel
-X libxml
-
 X xfce-utils
+
+# needed by thunar and xfce4-terminal
+X libexo
+X perl-uri
 
 X xfce4-trigger-launcher
 X xfce4-icon-theme
 X xfwm4-themes
 X xfce-mcs-plugins
 
-X xfce4-systray
+# needed by xfce4-appfinder
+X perl-xml-parser
+
+# needed by xfce4-trigger-launcher (from svn)
+X xfce4-dev-tools
+X intltool
 
 # needed to shutdown and reboot
 X sudo
