@@ -18,9 +18,6 @@
 # nice features
 X startup-notification
 
-# why bc?
-X bc
-
 # fonts
 X xorg-cyrillic-fonts
 X cabextract
