@@ -20,6 +20,7 @@ X hal
 X dbus
 
 # stuff needed by HAL
+X dbus-glib
 X libusb
 X popt
 X perl-xml-parser
