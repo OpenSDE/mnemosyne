@@ -15,7 +15,6 @@
 #Description: Minimal Xfce Libraries
 #Dependencies: GTK
 
-X dbh
 X gtk-xfce-engine2
 X libxfce4mcs
 X libxfce4util
