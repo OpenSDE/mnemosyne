@@ -1,0 +1,4 @@
+#Dependencies: HALDBUS PYTHON
+
+X pyrexc
+X dbus-python
