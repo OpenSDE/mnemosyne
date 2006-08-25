@@ -17,5 +17,5 @@
 #Dependencies: BOOT!=vserver
 
 X vserver
-X utils-vserver
+X util-vserver
 X wget
