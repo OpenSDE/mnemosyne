@@ -17,3 +17,6 @@
 #Forced: ENCRYPTION
 
 X clamav
+
+# wanted by freshclam
+X gmp
