@@ -1,0 +1,4 @@
+#Description: PostgreSQL Connection Pool (Loadbalancing)
+#Dependencies: POSTGRES!=0
+
+X pgpool
