@@ -32,7 +32,7 @@ X cvs
 X tla
 
 X lsof
-X cdrtools
+X dvdrtools
 X rsync
 
 # needed to create T2 ISO files
