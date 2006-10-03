@@ -19,9 +19,6 @@ X alsa-*
 X libogg
 X libvorbis
 X libmad
-X libtheora
-X x264
-X faac
 X ffmpeg
 
 # needed by alsa-plugins
