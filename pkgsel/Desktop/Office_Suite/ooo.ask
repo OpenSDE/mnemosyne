@@ -22,4 +22,16 @@ X perl-archive-zip
 X perl-compress-zlib
 X curl
 X neon
+
+# required by ooo
+X zip
+X unzip
+
+X libwpd
+X icu4c
+
+X sablot
 X libxslt
+
+# required by libwpd
+X libgsf
