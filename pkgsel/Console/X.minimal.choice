@@ -228,5 +228,6 @@ X cf
 # needed by pkgconfig
 X glib
 
-#needed by libx11
+#needed by libxcb
 X check
+X libxslt
