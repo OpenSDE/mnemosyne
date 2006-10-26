@@ -42,3 +42,6 @@ X xine-lib
 
 X mplayer
 X bc
+
+# x264 dependencies
+X yasm
