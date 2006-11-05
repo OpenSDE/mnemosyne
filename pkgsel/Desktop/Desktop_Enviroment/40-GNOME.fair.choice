@@ -17,17 +17,12 @@
 #Dependencies: GTK
 #Imply: minimal basic
 
-X icon-naming-utils
 X hicolor-icon-theme
 X gtk-engines
 X gnome-themes
-X gnome-icon-theme
 X gnome-backgrounds
 
 X evince
-
-# needed icon-naming-utils
-X perl-xml-simple
 
 # needed by evince
 X poppler
