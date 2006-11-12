@@ -1,0 +1,5 @@
+#Description: Claws Mail Extra Plugins
+#Dependencies: CLAWS
+
+X sylpheed-claws-vcalendar
+X sylpheed-claws-rssyl
