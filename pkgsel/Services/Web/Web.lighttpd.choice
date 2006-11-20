@@ -22,3 +22,6 @@ X fcgi
 - pound
 - gatling
 - nginx
+
+# recommended by lighttpd
+X pcre
