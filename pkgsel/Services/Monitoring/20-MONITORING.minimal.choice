@@ -1,0 +1,17 @@
+#Description: Minimal System Monitoring 
+
+X rrdtool
+X collectd
+
+# rrdtool build dependencies
+X libpng
+X freetype
+X libart_lgpl23
+
+# collectd optional dependencies
+X libstatgrab
+X liboping
+X lm_sensors
+
+# lm_sensors build dependencies
+X sysfsutils
