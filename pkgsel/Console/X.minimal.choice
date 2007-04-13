@@ -119,6 +119,9 @@ X libxxf86dga
 X libxxf86misc
 X libxxf86vm
 
+# needed by libxcb
+X libpthread-stubs
+
 X evieext
 
 # Video drivers
