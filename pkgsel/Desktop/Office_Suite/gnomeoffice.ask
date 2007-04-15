@@ -35,3 +35,4 @@ X gal
 
 # needed by goffice
 X libgsf
+X pcre
