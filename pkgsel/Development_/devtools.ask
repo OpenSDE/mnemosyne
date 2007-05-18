@@ -35,7 +35,7 @@ X lsof
 X dvdrtools
 X rsync
 
-# needed to create T2 ISO files
+# needed to create ISO files
 X popt
 
-X t2-src
+X opensde-src
