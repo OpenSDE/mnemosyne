@@ -70,3 +70,14 @@ if [ "$SDECFG_TRG_MNEMOSYNE_DEVELOPMENT" != 1 ]; then
         }
         hook_add postflist 5 "mnemosyne_flist_no_devel"
 fi
+
+if [ "$SDECFG_TRG_MNEMOSYNE_DOC" == "minimal" ]; then
+        echo_status "Just minimal documentation files will be flisted"
+        mnemosyne_flist_just_minimal_docs() {
+                sed -i	-e '/\.\(html\|pdf\|ps\|tex\)$/d;' \
+			-e '/\.\(gif\|jpg\|png\)$/d;' \
+			-e "/.*\/share\/\(doc\|gtk-doc\).*\/html\/.*/d;" \
+			$builddir/flist.txt
+	}
+	hook_add postflist 5 "mnemosyne_flist_just_minimal_docs"
+fi
