@@ -1,0 +1,4 @@
+#Description: /etc/net - Linux network configuration
+#Dependencies: NETADMIN
+
+X etcnet

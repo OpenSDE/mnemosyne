@@ -19,7 +19,6 @@ X sysfiles
 X iana-etc
 # sysfiles split on 2.2 - except mkpkg and mkinitrd
 X stone
-X rocknet
 
 X shadow
 X util-linux
