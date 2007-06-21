@@ -46,7 +46,7 @@ mnemosyne_postinstall() {
 			# keyboard mappings
 			ln -svnf /sbin/init.d/kbd "$root/etc/runit/1.d/05kbd"
 			;;
-		rocknet)
+		rocknet|etcnet)
 			# network
 			ln -svnf /sbin/init.d/network "$root/etc/runit/1.d/15network"
 			;;
