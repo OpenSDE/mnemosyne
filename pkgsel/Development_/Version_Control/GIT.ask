@@ -2,3 +2,7 @@
 
 X git
 X cogito
+
+# needed for git-svnimport and most probably other git helpers
+X perl-uri
+X perl-libwww
