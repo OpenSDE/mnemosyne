@@ -36,3 +36,13 @@ X libcroco
 X libxklavier
 X libexif
 X desktop-file-utils
+
+# needed by nautilus
+X librsvg
+# needed by control-center
+X gstreamer
+X gst-plugins-base
+X libgnomekbd
+# needed by gst-plugins-base
+X liboil
+
