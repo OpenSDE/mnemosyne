@@ -15,6 +15,7 @@
 
 #Description: Minimal GNOME Libraries
 #Dependencies: GTK
+#Forced: HALDBUS
 
 X libgnome
 X gconf
@@ -32,7 +33,6 @@ X gnome-keyring
 
 X scrollkeeper
 X libxslt
-X docbookx
 
 X libglade
 
@@ -55,6 +55,3 @@ X icon-naming-utils
 
 # needed icon-naming-utils
 X perl-xml-simple
-
-# needed by gnome-vfs
-X dbus-glib
