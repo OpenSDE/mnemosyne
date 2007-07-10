@@ -27,6 +27,7 @@ X pkgconfig
 X glib
 X dbus-glib
 X libusb
+X usbutils
 X popt
 X perl-xml-parser
 
