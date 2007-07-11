@@ -1,5 +1,5 @@
 #Description: Rocknet - Network Configuration Engine
 #Dependencies: NETADMIN
-#Default: 1
+#Default: rocknet
 
 X rocknet
