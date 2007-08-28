@@ -17,10 +17,13 @@
 
 X qsheff
 X clamav
-X dspam
+X crm114
 
 # needed by qsheff
 X ripmime
 
 # wanted by clamav
 X gmp
+
+# needed by crm114
+X tre
