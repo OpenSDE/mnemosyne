@@ -17,4 +17,4 @@
 #Forced: LDAP
 
 X pam_ldap
-X nss_ldap
+X nss-ldapd
