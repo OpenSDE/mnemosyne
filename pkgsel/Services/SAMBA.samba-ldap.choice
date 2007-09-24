@@ -17,3 +17,17 @@
 #Imply: samba
 
 X smbldap-tools
+
+# needed by smbldap-tools
+X perl-net-ldap
+X perl-crypt-smbhash
+X perl-unicode-maputf8
+X perl-digest-sha1
+
+# needed by perl-net-ldap
+X perl-convert-asn1
+# needed by perl-unicode-maputf8
+X perl-unicode
+X perl-unicode-map
+X perl-unicode-map8
+X perl-jcode
