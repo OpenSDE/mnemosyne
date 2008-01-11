@@ -232,3 +232,6 @@ X glib
 #needed by libxcb
 X check
 X libxslt
+
+# needed by xorg-server
+X pixman
