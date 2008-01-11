@@ -173,7 +173,7 @@ X xf86-input-mouse
 
 # Keyboard 
 X xkbcomp
-X xkbdata
+X xkeyboardconfig
 X setxkbmap
 
 X xcursor-themes
