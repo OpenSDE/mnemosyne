@@ -1,0 +1,5 @@
+#Description: Software RAID
+#Dependencies: BOOT!=vserver
+
+X device-mapper
+X mdadm
