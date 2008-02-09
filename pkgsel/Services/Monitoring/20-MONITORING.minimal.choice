@@ -15,3 +15,8 @@ X lm_sensors
 
 # lm_sensors build dependencies
 X sysfsutils
+
+# collection.cgi dependencies
+# TODO: refactor into a web module
+X perl-html-parser
+X perl-uri
