@@ -19,6 +19,7 @@ X sysfiles
 X iana-etc
 X stone
 
+X busybox
 X shadow
 X util-linux-ng
 X findutils
