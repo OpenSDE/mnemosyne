@@ -319,8 +319,8 @@ sub render_widgets_folder {
 
 				print "${offset}if \[ -n \"\$$var\" \]; then\n";
 				print "${offset}\tchoice $var \$$defaultvar \$$listvar\n";
-				print "${offset}\t. $conffile \"$var\" \"\$$var\" \n" if $conffile;
 				print "${offset}fi\n";
+				print "${offset}. $conffile \"$var\" \"\$$var\" \n" if $conffile;
 
 			} elsif ($module->{kind} == ASK) {
 				# ASK
@@ -329,8 +329,8 @@ sub render_widgets_folder {
 
 				print "${offset}if \[ -n \"\$$var\" \]; then\n";
 				print "${offset}\tbool '$module->{desc}' $module->{var} $default\n";
-				print "${offset}\t. $conffile \"$var\" \"\$$var\" \n" if $conffile;
 				print "${offset}fi\n";
+				print "${offset}. $conffile \"$var\" \"\$$var\" \n" if $conffile;
 			} elsif ($conffile) {
 				# ALL, only if $conffile
 				print "${offset}. $conffile \"$var\" \"\$$var\" \n";
