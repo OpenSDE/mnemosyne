@@ -9,6 +9,16 @@ Mnemosyne is a fully modular abstract target which founds itself over
 highly secure and reliable packages instead of deprecated 'de facto'
 standard packages like sysvinit, netkit and vixie-cron.
 
-[1] ROCKLinux  - http://www.rocklinux.org/
-[2] OpenSDE    - http://opensde.org/
+Mnemosyne, use `runit`[3] init style, and since 0.4 the rest of the
+tools implemented by `sysvinit` are replaced with `busybox`[4]
+equivalents. We use udhcpc from busybox too, and only support
+`iproute2`[5] instead of the deprecated classic ifconfig/route/arp.
 
+Mnemosyne is licensed under GPLv2+, but this doesn't affect distributions
+implemented extending (without altering) mnemosyne itself.
+
+[1] ROCKLinux	- http://www.rocklinux.org/
+[2] OpenSDE	- http://opensde.org/
+[3] runit	- http://smarden.org/runit/
+[4] BusyBox	- http://busybox.net/
+[5] iproute2	- http://www.linuxfoundation.org/en/Net:Iproute2
