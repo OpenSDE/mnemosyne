@@ -3,18 +3,12 @@ Alejandro Mery <amery@geeks.cl>
 powered by OpenSDE!
 
 Mnemosyne is a abstract distribution originally designed for
-ROCKLinux [1], but currently only support the trunk of OpenSDE [3].
+ROCKLinux [1], but currently only support the trunk of OpenSDE [2].
 
 Mnemosyne is a fully modular abstract target which founds itself over
 highly secure and reliable packages instead of deprecated 'de facto'
 standard packages like sysvinit, netkit and vixie-cron.
 
-Backward compatibility with T2 [2] is been kept at the t2-friendly
-branch, at svn://svn.opensde.net/mnemosyne/branches/t2-friendly
-
-Future development will most probably not merged back into that branch.
-
 [1] ROCKLinux  - http://www.rocklinux.org/
-[2] T2 Project - http://www.t2-project.org/
-[3] OpenSDE    - http://opensde.org/
+[2] OpenSDE    - http://opensde.org/
 
