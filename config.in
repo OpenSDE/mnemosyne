@@ -29,7 +29,7 @@ esac
 
 if [ ! -s $cfgtmpdir/mnemosyne.config.in ]; then
 
-	if ! perl ./target/$SDECFG_TRG_MNEMOSYNE/mnemosyne.pl "./target/$SDECFG_TRG_MNEMOSYNE/pkgsel" TRG_MNEMOSYNE	\
+	if ! perl ./target/$SDECFG_TRG_MNEMOSYNE/mnemosyne.pl "./target/$SDECFG_TRG_MNEMOSYNE/pkgsel.d" TRG_MNEMOSYNE	\
 		$cfgtmpdir/mnemosyne.{config,rules,awkgen}.in; then
 		echo "mnemosyne.pl failed!"
 		rm -f $cfgtmpdir/mnemosyne.{config,rules,awkgen}.in
