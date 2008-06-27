@@ -34,5 +34,4 @@ X busybox
 - util-linux-ng
 - net-tools
 - module-init-tools
-- runit-logacct
 - udhcp
