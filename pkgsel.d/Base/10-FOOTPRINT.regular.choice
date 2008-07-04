@@ -17,3 +17,8 @@
 #Imply: light
 
 X gettext
+
+# needs term.h
+X procps
+# needs ncurses or termcap
+X psmisc
