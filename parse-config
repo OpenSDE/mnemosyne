@@ -53,6 +53,9 @@ mnemosyne_postinstall() {
 	esac
 }
 
+# check overlays
+.  target/$SDECFG_TRG_MNEMOSYNE/overlay.in
+
 if [ "$SDECFG_TRG_MNEMOSYNE_DOC" == "minimal" ]; then
         echo_status "Just minimal documentation files will be flisted"
         mnemosyne_flist_just_minimal_docs() {
