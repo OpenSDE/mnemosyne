@@ -28,3 +28,6 @@ X readline
 X dialog
 
 X screen
+
+X procps
+X psmisc
