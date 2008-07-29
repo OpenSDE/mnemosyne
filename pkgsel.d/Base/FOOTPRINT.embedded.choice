@@ -16,6 +16,7 @@
 #Description: Embedded System
 
 - runit
+- runit-shutdown
 
 # instead of ncurses
 X termcap
