@@ -20,18 +20,6 @@ mnemosynedir=$base/target/$SDECFG_TRG_MNEMOSYNE
 [ ! -f $mnemosynedir/pkg_patch/$pkg.patch ] || var_append patchfiles ' ' $mnemosynedir/pkg_patch/$pkg.patch
 unset mnemosynedir
 
-# postinstall extra hackery
-hook_add postinstall 5 'mnemosyne_postinstall'
-mnemosyne_postinstall() {
-	local x=
-	case "$pkg" in
-		rocknet|etcnet)
-			# network
-			ln -svnf /sbin/init.d/network "$root/etc/runit/1.d/15network"
-			;;
-	esac
-}
-
 # check overlays
 .  target/$SDECFG_TRG_MNEMOSYNE/overlay.in
 
