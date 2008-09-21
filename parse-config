@@ -25,12 +25,6 @@ hook_add postinstall 5 'mnemosyne_postinstall'
 mnemosyne_postinstall() {
 	local x=
 	case "$pkg" in
-		bcron)
-			# bcron services active by default
-			for x in bcron-scheduler bcron-spooler bcron-updater; do
-				ln -svnf $sysconfdir/$x $root/service/$x
-			done
-			;;
 		alsa-utils)
 			# alsa configuration save/restore
 			ln -svnf /sbin/init.d/alsa "$root/etc/runit/1.d/20alsa"
