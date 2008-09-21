@@ -15,8 +15,7 @@
 mnemosyne_overlay_dir="$base/target/$SDECFG_TRG_MNEMOSYNE/overlay.d"
 mnemosyne_overlay=
 
-mnemosyne_overlay_apply()
-{
+mnemosyne_overlay_apply() {
 	local x=
 	for x; do
 		overlay_apply "$x"
@@ -35,6 +34,11 @@ case "$pkg" in
 busybox)
 	if [ "$SDECFG_TRG_MNEMOSYNE_EMBEDDED_INIT" = 1 ]; then
 		var_append mnemosyne_overlay ' ' "$mnemosyne_overlay_dir/busybox-init"
+	fi
+	;;
+sysfiles)
+	if [ "$SDECFG_TRG_MNEMOSYNE_FOOTPRINT" = embedded ]; then
+		var_append mnemosyne_overlay ' ' "$mnemosyne_overlay_dir/$pkg-embedded"
 	fi
 	;;
 esac
