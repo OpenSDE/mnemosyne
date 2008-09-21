@@ -18,5 +18,8 @@
 - runit
 - runit-shutdown
 
+- util-linux
+- util-linux-ng
+
 # instead of ncurses
 X termcap
