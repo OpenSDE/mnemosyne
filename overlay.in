@@ -25,9 +25,21 @@ mnemosyne_overlay_apply() {
 hook_add postdoc 5 'eval mnemosyne_overlay_apply $mnemosyne_overlay'
 
 # $pkg specific overlays
-if [ -d "$mnemosyne_overlay_dir/pkgs/$pkg/" ]; then
-	var_append mnemosyne_overlay ' ' "$mnemosyne_overlay_dir/pkgs/$pkg/"
-fi
+y="pkgs"
+for x in vserver HD initrd; do
+	if [ "$SDECFG_TRG_MNEMOSYNE_BOOT" = "$x" ]; then
+		y="$y boot-$x"
+	else
+		y="$y boot-no$x"
+	fi
+done
+
+for x in $y; do
+	z="$mnemosyne_overlay_dir/$x/$pkg/"
+	if [ -d "$z" ]; then
+		var_append mnemosyne_overlay ' ' "$z"
+	fi
+done
 
 # conditional $pkg specific overlays
 case "$pkg" in
