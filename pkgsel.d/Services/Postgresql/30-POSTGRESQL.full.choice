@@ -19,3 +19,10 @@ X pgtop
 X pg_buffercache
 X pgspy
 X reorg
+
+#Dependencies
+#Needed by pgspy
+X libpcap
+#Needed by pgtop
+X perl-term-readkey
+
