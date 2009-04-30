@@ -37,9 +37,6 @@ X libxml
 # icons
 X hicolor-icon-theme
 
-# detect video settings
-X ddcxinfo
-
 # Note:
 # Following packaged were moved from the minimal choice, and have to be reviewed!
 #
