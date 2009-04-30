@@ -232,3 +232,6 @@ X libxslt
 # needed by xorg-server
 X pixman
 X libpciaccess
+
+# needed by xkeyboardconfig
+X intltool
