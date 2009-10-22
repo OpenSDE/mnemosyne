@@ -24,6 +24,7 @@ X freetype
 X libart_lgpl23
 X libxml
 X pango
+X intltool
 
 # collectd optional dependencies
 X libstatgrab
@@ -37,3 +38,8 @@ X sysfsutils
 # TODO: refactor into a web module
 X perl-html-parser
 X perl-uri
+
+# needed by intltool
+X perl-xml-parser
+# needed by perl-xml-parser
+X expat
