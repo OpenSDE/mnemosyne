@@ -17,3 +17,6 @@
 #Dependencies: BOOT!=vserver
 #Default: 1
 X e2fsprogs
+
+# needed by e2fsprogs
+X pkgconfig
