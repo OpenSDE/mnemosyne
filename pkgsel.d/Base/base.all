@@ -30,3 +30,5 @@ X bzip2
 X zlib
 X tar
 
+# needed by util-linux-ng
+X pkgconfig
