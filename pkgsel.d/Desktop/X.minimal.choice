@@ -82,7 +82,6 @@ X libdrm
 X libfontenc
 X libfs
 X libice
-X liblbxutil
 X liboldx
 X libsm
 X libxcb
