@@ -35,3 +35,8 @@ X phonon
 
 # optional but recommended packages for kdelibs and kdebase
 X soprano
+
+# soprano build time dependencies
+X raptor
+X rasqal
+X redland
