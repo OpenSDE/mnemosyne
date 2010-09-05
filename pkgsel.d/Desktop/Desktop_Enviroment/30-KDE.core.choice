@@ -28,3 +28,7 @@ X automoc4
 # kdelibs mandantory build time dependencies
 X attica
 X strigi
+
+# kdebase mandantory build time dependencies
+X qimageblitz
+X phonon
