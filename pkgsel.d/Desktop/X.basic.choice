@@ -138,3 +138,7 @@ X xwd
 X xwininfo
 X xwud
 X fdclock
+
+# XCB extensions
+X xcb-util
+X gperf
