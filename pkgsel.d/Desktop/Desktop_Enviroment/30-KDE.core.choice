@@ -32,3 +32,6 @@ X strigi
 # kdebase mandantory build time dependencies
 X qimageblitz
 X phonon
+
+# optional but recommended packages for kdelibs and kdebase
+X soprano
