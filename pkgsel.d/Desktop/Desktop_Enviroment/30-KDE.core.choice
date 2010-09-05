@@ -21,3 +21,6 @@ X fam
 X pcre
 X kdelibs
 X kdebase
+
+# needed to build all kde core packages
+X automoc4
