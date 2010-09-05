@@ -24,3 +24,7 @@ X kdebase
 
 # needed to build all kde core packages
 X automoc4
+
+# kdelibs mandantory build time dependencies
+X attica
+X strigi
