@@ -17,3 +17,5 @@
 #Default: 0
 X glusterfs
 
+# needed to have a working glusterfs
+X fuse
