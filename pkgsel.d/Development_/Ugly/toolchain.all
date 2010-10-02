@@ -20,7 +20,6 @@ X gmp
 X mpfr
 X ppl
 X cloog-ppl
-X libmpc
 
 X gcc
 X binutils
