@@ -36,3 +36,4 @@ X inkscape
 # Inkscape dependencies
 X boehm-gc
 X libxslt
+X gsl
