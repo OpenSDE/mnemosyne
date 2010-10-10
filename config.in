@@ -19,7 +19,8 @@ const SDECFG_TRG_MNEMOSYNE ${target:-$SDECFG_TARGET}
 
 case "$sdever" in
 	trunk)	CFGTEMP_TREE=0 ;;
-	vapor)	CFGTEMP_TREE=0 ;;
+	master)	CFGTEMP_TREE=0 ;;
+	0.1-0.1*) CFGTEMP_TREE=0 ;;
 	*)	comment " "
 		comment "ERROR: Your version ($sdever) is not supported"
 		comment "       by this tree of mnemosyne!"
