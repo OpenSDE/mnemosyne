@@ -22,6 +22,7 @@ X stone
 X busybox
 X shadow
 X util-linux
+X gptfdisk
 X findutils
 
 X openssl
