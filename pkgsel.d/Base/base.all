@@ -33,3 +33,5 @@ X tar
 
 # needed by util-linux
 X pkgconfig
+# needed by gptfdisk
+X popt
